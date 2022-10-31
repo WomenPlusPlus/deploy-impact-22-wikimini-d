@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "por omissão",
+	"medik-desc": "Tema for WikiSkripta.eu, um projeto wiki medicinal da Primeira Faculdade de Medicina, Unidade de Charles (República Checa).",
+	"medik-font-label": "Tamanho da fonte",
+	"medik-tools-menu": "Edição e ferramentas"
+}

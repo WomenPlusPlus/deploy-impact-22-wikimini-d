@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "baku",
+	"medik-desc": "Kulit untuk WikiSkripta.eu, proyek wiki medis pada Fakultas Obat-obatan Pertama, Universitas Charles (Repubiik Ceko).",
+	"medik-font-label": "Ukuran huruf",
+	"medik-tools-menu": "Penyuntingan dan perkakas"
+}

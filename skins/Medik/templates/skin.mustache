@@ -1,0 +1,59 @@
+{{{html-skinstart}}}
+<style>:root {--medik: {{medik-color}};}</style>
+<div id="mw-wrapper">
+
+	<!-- navbar -->
+	<div id="mw-navbar" role="navigation" class="navbar navbar-expand-lg navbar-light d-flex justify-content-between bg-ws">
+		<div id="mw-navbar-left">
+			{{{html-logo}}}
+		</div>
+		<div class="dropdown" id="mw-navbar-right">
+			{{{html-search-userlinks}}}
+		</div>
+	</div>
+
+	<!-- sidebar and main content wrapper -->
+	<div class="container-fluid" id="mw-main-container">
+		<div class="row">
+
+			<!-- navigation sidebar -->
+			<div id="mw-navigation" role="navigation" class="col-12 {{medik-sidebar-width}}" style="font-size: {{medik-fontsize}};">
+				<nav class="nav flex-column">
+					<h2>
+						{{{html-navigation-heading}}}
+					</h2>
+					<div id="site-navigation">
+						{{{html-site-navigation}}}
+					</div>
+				</nav>
+			</div>
+
+			<!-- main content -->
+			<div class="col-12 {{medik-content-width}} py-md-3 px-md-5">
+				{{{html-sitenotice}}}
+				{{{html-talknotice}}}
+				{{{html-aside}}}
+				<div class="mw-body" id="content" style="font-size: {{medik-fontsize}};" role="main">
+					{{{html-indicators}}}
+					<h1 id="firstHeading" class="firstHeading" lang="{{pagelanguage}}">{{{html-pagetitle}}}</h1>
+					<div id="siteSub">{{{html-tagline}}}</div>
+					<div class="mw-body-content" id="bodyContent">
+							<div id="contentSub">
+								{{{html-pagesubtitle}}}
+								<p>{{{html-undelete}}}</p>
+							</div>
+							{{{html-bodycontent}}}
+							{{{html-clear}}}
+							<div class="printfooter">{{{html-printfooter}}}</div>
+							{{{html-categorylinks}}}
+					</div>
+					{{{html-dataaftercontent}}}
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	{{{html-footer}}}
+</div>
+{{{html-skinend}}}

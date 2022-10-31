@@ -1,0 +1,110 @@
+{
+	"name": "Medik",
+	"namemsg": "skinname-medik",
+	"version": "3.2.7",
+	"author": "Petr Kajzar",
+	"url": "https://www.mediawiki.org/wiki/Skin:Medik",
+	"description": "MediaWiki skin based on Bootstrap 4, originaly created for WikiSkripta.eu",
+	"descriptionmsg": "medik-desc",
+	"license-name": "CC0-1.0",
+	"type": "skin",
+	"ValidSkinNames": {
+		"medik": "Medik"
+	},
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"MessagesDirs": {
+		"Medik": [
+			"i18n"
+		]
+	},
+	"config": {
+		"MedikColor": {
+			"value": "#ffbe00",
+			"description": "Default color of the wiki theme."
+		},
+		"MedikContentWidth": {
+			"value": "default",
+			"description": "Extend the content to the full width on XL screens."
+		},
+		"MedikLogoWidth": {
+			"value": "default",
+			"description": "Set the logo width."
+		},
+		"MedikMobileSitename": {
+			"value": null,
+			"description": "Short sitename for mobile screens."
+		},
+		"MedikResponsive": {
+			"value": true,
+			"description": "Enable responsive Medik design."
+		},
+		"MedikShowLogo": {
+			"value": "none",
+			"description": "Show logo in the header bar."
+		},
+		"MedikUseLogoWithoutText" : {
+			"value": false,
+			"description": "Show only logo without text in the navbar."
+		}
+	},
+	"Hooks": {
+		"GetPreferences": "SkinMedik::onGetPreferences"
+	},
+	"DefaultUserOptions": {
+		"medik-font": "0.9em"
+	},
+	"ResourceModules": {
+		"skins.medik": {
+			"class": "ResourceLoaderSkinModule",
+			"features": {
+				"legacy": false
+			},
+			"styles": {
+				"resources/libraries/bootstrap.min.css": {
+					"media": "screen"
+				},
+				"resources/screen.css": {
+					"media": "screen"
+				},
+				"resources/print.css": {
+					"media": "print"
+				}
+			}
+		},
+		"skins.medik.responsive": {
+			"styles": {
+				"resources/desktop.css": {
+					"media": "screen and (min-width: 768px)"
+				},
+				"resources/mobile.css": {
+					"media": "screen and (max-width: 767px)"
+				}
+			}
+		},
+		"skins.medik.noresponsive": {
+			"styles": {
+				"resources/desktop.css": {
+					"media": "screen"
+				}
+			}
+		},
+		"skins.medik.js": {
+			"scripts": [
+				"resources/libraries/popper.min.js",
+				"resources/main.js",
+				"resources/libraries/bootstrap.min.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Medik"
+	},
+	"AutoloadClasses": {
+		"SkinMedik": "includes/SkinMedik.php",
+		"MedikTemplate": "includes/MedikTemplate.php"
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirzali",
+			"Orbot707"
+		]
+	},
+	"chat": "Mıhebet",
+	"chat-today": "ewro",
+	"chat-yesterday": "vızêr",
+	"chat-block": "kılit ke",
+	"chat-blocked": "$1i $2 {{GENDER:$3|kılit kerd}}.",
+	"chat-private-message": "bıtıkne be mesacê xısusiyi",
+	"logentry-privatechat-send": "$5 rê $1: $4"
+}

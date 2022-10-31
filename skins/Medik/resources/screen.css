@@ -1,0 +1,372 @@
+/*! Medik | CC0 license | https://bitbucket.org/wikiskripta/medik */
+
+/* Basic typography
+   ========================================================================== */
+
+a.feedlink {
+	background-position: 6px center;
+	padding-left: 1.5em;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+table caption {
+	caption-side: top;
+	color: inherit;
+}
+
+.dropdown a:hover,
+.mw-portlet-body a:hover {
+	text-decoration: none;
+}
+
+/* Navbar and hamburger menu
+   ========================================================================== */
+
+.bg-ws {
+	background-color: var( --medik );
+}
+
+#mw-navbar .mw-wiki-logo {
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	height: 1.4em;
+	margin-right: 0.5em;
+	position: relative;
+	top: 0.4em;
+	width: 1.4em;
+}
+
+#mw-navigation .mw-wiki-logo {
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: block;
+	height: 10em;
+	margin: 2em auto 0;
+	width: 10em;
+}
+
+#mw-navbar-right {
+	display: flex;
+}
+
+#searchInput {
+	max-width: 100%;
+}
+
+#user-tools button {
+	color: #fff;
+}
+
+#p-personal ul,
+aside ul {
+	margin: 0;
+}
+
+#p-personal li,
+aside li {
+	list-style-type: none;
+}
+
+#p-personal li a:not( .dropdown-item ),
+aside li a:not( .dropdown-item ),
+#p-personal li a:not( .dropdown-item ):hover,
+aside li a:not( .dropdown-item ):hover {
+	color: #212529;
+	display: block;
+	text-decoration: none;
+	padding: 0.25em 1.5em;
+	width: 100%;
+}
+
+#p-personal li a:not( .dropdown-item ):hover,
+aside li a:not( .dropdown-item ):hover {
+	background-color: #f8f9fa;
+}
+
+#p-tb-label,
+#p-personal-label,
+#p-views-label,
+#pt-anonuserpage,
+#pt-anontalk,
+#pt-anoncontribs {
+	display: none;
+}
+
+#p-banner {
+	font-weight: bold;
+}
+
+#p-banner,
+#p-banner:hover,
+#p-banner:visited,
+.mw-hamb {
+	color: #fff;
+}
+
+a.dropdown-item:visited {
+	color: #212529;
+}
+
+#personal-echo-icons ul {
+	margin: 0;
+	padding: 0;
+}
+
+#personal-echo-icons li {
+	display: inline-block;
+	list-style-type: none;
+	position: relative;
+	top: 6px;
+}
+
+#pt-notifications-alert .mw-echo-notifications-badge,
+#pt-notifications-notice .mw-echo-notifications-badge {
+	filter: invert( 1 );
+}
+
+#pt-notifications-alert .mw-echo-notifications-badge.mw-echo-notifications-badge-all-read:before,
+#pt-notifications-notice .mw-echo-notifications-badge.mw-echo-notifications-badge-all-read:before,
+#pt-notifications-alert .mw-echo-notifications-badge.mw-echo-notifications-badge-all-read,
+#pt-notifications-notice .mw-echo-notifications-badge.mw-echo-notifications-badge-all-read {
+	opacity: 1;
+}
+
+#pt-notifications-alert .mw-echo-notifications-badge.mw-echo-notifications-badge-all-read:before,
+#pt-notifications-notice .mw-echo-notifications-badge.mw-echo-notifications-badge-all-read:before {
+	margin-top: 6px;
+}
+
+/* Sidebar menu
+   ========================================================================== */
+
+nav {
+	padding-bottom: 2em;
+}
+
+#mw-navigation {
+	border-right: 1px solid #e5e5e5;
+}
+
+#mw-navigation h2 {
+	display: none;
+}
+
+#mw-navigation ul {
+	margin: 0;
+}
+
+#mw-navigation li {
+	list-style-type: none;
+}
+
+#mw-navigation a {
+	display: block;
+	padding: 0.2em 1em;
+}
+
+#mw-navigation a.nav-link.disabled {
+	color: #444;
+	margin-top: 1em;
+	font-weight: bold;
+}
+
+#mw-navigation a:not( .disabled ) {
+	color: #808080;
+}
+
+#mw-navigation a:not( .disabled ):hover {
+	color: #444;
+}
+
+/* Aside (edit) menu
+   ========================================================================== */
+
+aside {
+	display: inline-block;
+	font-size: 0.9em;
+	white-space: nowrap;
+	z-index: 1000;
+}
+
+aside a:not( .disabled ) {
+	color: #000;
+}
+
+#p-namespaces .selected a {
+	border-bottom: 3px solid var( --medik );
+}
+
+#p-namespaces .selected a:hover {
+	text-decoration: none;
+}
+
+#p-namespaces-label {
+	display: none;
+}
+
+/* Main content
+   ========================================================================== */
+
+#mw-main-container {
+	background-color: #fff;
+}
+
+#siteNotice {
+	font-size: 0.9em;
+}
+
+#content {
+	overflow: auto;
+	padding: 1em 0 2em 0;
+}
+
+.mw-body-content {
+	line-height: 1.5em;
+}
+
+.mw-body-content h1,
+.firstHeading {
+	font-size: 180%;
+	word-wrap: break-word;
+}
+
+.mw-body-content h2 {
+	font-size: 155%;
+}
+
+.toctitle h2 {
+	font-size: inherit;
+}
+
+.mw-body-content h3 {
+	font-size: 140%;
+}
+
+.mw-body-content h4 {
+	font-size: 120%;
+}
+
+.mw-body-content h5 {
+	font-size: 110%;
+}
+
+.mw-body-content h6 {
+	font-size: 100%;
+}
+
+.mw-indicators {
+	float: right;
+	line-height: 1.6;
+	font-size: 0.875em;
+	position: relative;
+	top: 1em;
+	z-index: 1;
+}
+
+#mw-indicator-mw-helplink {
+	display: none;
+}
+
+#firstHeading {
+	overflow: visible;
+}
+
+#content a:not( .new ):visited,
+#siteNotice a:not( .new ):visited {
+	color: #007bff;
+}
+
+.mw-parser-output ul {
+	margin-bottom: 1rem;
+	margin-top: 0;
+}
+
+.mw-parser-output ul li ul, .mw-parser-output .toc ul {
+	margin-bottom: 0;
+}
+
+.mw-htmlform fieldset:not(.oo-ui-layout) {
+	border: 1px solid #a2a9b1;
+    margin: 1em 0 1em 0;
+    padding: 0 1em 1em;
+}
+
+.mw-htmlform fieldset:not(.oo-ui-layout) legend {
+	padding-left: 0.5em;
+}
+
+.mw-htmlform legend {
+	font-size: 100%;
+	font-weight: bold;
+}
+
+#mw-upload-form td {
+	vertical-align: top;
+}
+
+/* Editor
+   ========================================================================== */
+
+.mw-ui-input,
+.oo-ui-textInputWidget input {
+	line-height: initial;
+}
+
+.oo-ui-windowManager {
+	position: relative;
+	z-index: 2000;
+}
+
+.oo-ui-floatableElement-floatable,
+.oo-ui-clippableElement-clippable {
+	background-color: #fff;
+	z-index: 2000;
+}
+
+.wikiEditor-ui-toolbar .page.page-characters div span {
+	height: auto;
+}
+
+.ve-ui-overlay-global.ve-ui-overlay {
+	z-index: 1001;
+}
+
+/* fix for MW 1.35 visual editor table row arrow */
+.ve-ui-surface .ve-ce-attachedRootNode.ve-ce-documentNode {
+	padding: 0.5em 1.2em;
+}
+
+/* Footer
+   ========================================================================== */
+
+.mw-footer {
+	background-color: #fff;
+	border-top: 1px solid #e5e5e5;
+	color: #808080;
+	font-size: 0.9em;
+	padding: 3em 1em 1em;
+}
+
+.mw-footer a {
+	color: #808080;
+	font-weight: 600;
+}
+
+.mw-footer a:hover {
+	color: #444;
+	text-decoration: none;
+}
+
+.mw-footer li {
+	display: inline;
+	list-style-type: none;
+}
+
+.mw-footer #footer-list li:not( :first-child )::before {
+	content: ' ― ';
+}

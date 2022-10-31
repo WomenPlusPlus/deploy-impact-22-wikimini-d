@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Petr Kajzar"
+		]
+	},
+	"skinname-medik": "Name of the Medik skin",
+	"medik-default": "Label of default user settings",
+	"medik-desc": "Description of the Medik skin",
+	"medik-font-label": "User settings: heading of the select menu that allows user to change the basic font-size",
+	"medik-tools-menu": "Aside menu above the article: label for 'edit and tools' dropdown menu"
+}

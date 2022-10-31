@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"medik-default": "domyślne",
+	"medik-desc": "Skórka dla WikiSkripta.eu, projektu medycznej wiki 1 wydziału medycyny na Uniwersytecie Karola w Czechach.",
+	"medik-font-label": "Rozmiar czcionki",
+	"medik-tools-menu": "Edycja i narzędzia"
+}

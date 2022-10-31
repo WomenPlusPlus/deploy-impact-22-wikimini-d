@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "Standard",
+	"medik-desc": "Stellt eine schlichte wie responsive und für mobile Endgeräte geeignete Benutzeroberfläche bereit",
+	"medik-font-label": "Schriftgröße",
+	"medik-tools-menu": "Bearbeiten und Werkzeuge"
+}

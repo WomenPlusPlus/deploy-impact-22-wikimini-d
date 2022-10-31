@@ -1,0 +1,31 @@
+Copyright (c) 2019-2022 First Faculty of Medicine, Charles University
+
+Created by: Petr Kajzar <petr.kajzar@centrum.cz>
+
+Medik, a MediaWiki skin, is provided under Creative Commons Zero v1.0 Universal
+license:
+
+	SPDX-License-Identifier: CC0-1.0
+
+For the full license text please see 'license-cc0.txt' file delivered with this
+skin in the 'assets/' folder.
+
+Note that the skin is:
+
+- based on the MediaWiki Skin:Example, provided under CC0-1.0 license:
+
+	https://www.mediawiki.org/wiki/Skin:Example
+
+- using Bootstrap library (included in 'resources/libraries/'), provided under
+  the MIT license:
+
+	https://getbootstrap.com/
+
+- using popper.js library (included in 'resources/libraries/'), provided under
+  the MIT license:
+
+	https://popper.js.org/
+
+- and created for WikiSkripta, a medical wiki project:
+
+	https://www.wikiskripta.eu

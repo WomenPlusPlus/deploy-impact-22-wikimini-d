@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"PlushBoy"
+		]
+	},
+	"skinname-medik": "Медик",
+	"medik-default": "по умолчанию",
+	"medik-desc": "Скин для WikiSkripta.eu, медицинский вики-проект 1-го медицинского факультета Карлова университета (Чехия).",
+	"medik-font-label": "Размер шрифта",
+	"medik-tools-menu": "Редактирование и инструменты"
+}

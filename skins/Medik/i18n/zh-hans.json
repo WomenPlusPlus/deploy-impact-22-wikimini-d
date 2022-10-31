@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lakejason0"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "默认",
+	"medik-desc": "用于捷克共和国布拉格查理大学第一医学院的医学wiki计划，WikiSkripta.eu的外观。",
+	"medik-font-label": "字体大小",
+	"medik-tools-menu": "编辑与工具"
+}

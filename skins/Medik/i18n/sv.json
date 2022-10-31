@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sabelöga",
+			"WikiPhoenix"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "standard",
+	"medik-desc": "Utseende för WikiSkripta.eu, medicinskt wikiprojekt av den första medicinfakulteten, Charles University (Tjeckien).",
+	"medik-font-label": "Teckenstorlek",
+	"medik-tools-menu": "Redigering och verktyg"
+}

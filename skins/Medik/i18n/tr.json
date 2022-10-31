@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"MuratTheTurkish"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "varsayılan",
+	"medik-desc": "WikiSkripta.eu görünümü, 1. Tıp Fakültesi, Charles Üniversitesi (Çek Cumhuriyeti) tıbbi viki projesi.",
+	"medik-font-label": "Yazı tipi boyutu",
+	"medik-tools-menu": "Düzenleme ve araçlar"
+}

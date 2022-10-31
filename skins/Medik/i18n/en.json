@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [ "Petr Kajzar" ]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "default",
+	"medik-desc": "Skin for WikiSkripta.eu, medical wiki project of the 1st Faculty of Medicine, Charles University (Czech Republic).",
+	"medik-font-label": "Font size",
+	"medik-tools-menu": "Editing and tools"
+}

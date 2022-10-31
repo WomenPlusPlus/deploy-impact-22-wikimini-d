@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup",
+			"Huñvreüs"
+		]
+	},
+	"chat": "Flap",
+	"chat-type-your-message": "Merkit ho kemennadenn",
+	"chat-type-your-private-message": "Skrivit ho kemennadenn brevez",
+	"chat-no-other-users": "Implijer all ebet er flap",
+	"chat-sounds": "Lenn sonioù",
+	"chat-a-minute-ago": "ur vunutenn zo",
+	"chat-yesterday": "dec'h",
+	"chat-kick": "skarzhañ kuit",
+	"chat-block": "stankañ",
+	"chat-private-message": "klikañ d'ober ur gemennadenn nevez",
+	"prefs-chat": "Flap",
+	"action-chat": "flapañ gant implijerien all",
+	"chat-mentioned-by": "Meneget {{GENDER:$2|gant}} $1"
+}

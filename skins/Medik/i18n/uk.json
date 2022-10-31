@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"DDPAT",
+			"Ice bulldog",
+			"Ата"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "за замовчуванням",
+	"medik-desc": "Тема оформлення для WikiSkripta.eu, медичного вікі-проєкту Першого медичного факультету Карлового університету (Чехія).",
+	"medik-font-label": "Розмір шрифту",
+	"medik-tools-menu": "Редагування та інструменти"
+}

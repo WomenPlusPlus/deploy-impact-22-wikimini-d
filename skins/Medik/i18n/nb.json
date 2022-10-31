@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "standard",
+	"medik-desc": "Drakt for WikiSkripta.eu, et medisinsk wikiprosjek for 1. medisinske fakultet ved Univerzita Karlova i Tsjekkia.",
+	"medik-font-label": "Skriftstørrelse",
+	"medik-tools-menu": "Redigering og verktøy"
+}

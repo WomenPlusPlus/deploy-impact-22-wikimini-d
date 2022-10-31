@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "predefinite",
+	"medik-desc": "Apparentia pro WikiSkripta.eu, projecto wiki medic del 1me Facultate de Medicina, Universitate Carolin (Republica Chec).",
+	"medik-font-label": "Dimension del litteras",
+	"medik-tools-menu": "Modification e utensiles"
+}

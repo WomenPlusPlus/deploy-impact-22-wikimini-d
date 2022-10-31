@@ -1,0 +1,147 @@
+/*! Medik | CC0 license | https://bitbucket.org/wikiskripta/medik */
+
+/* Navbar
+   ========================================================================== */
+
+.bg-ws {
+	z-index: 1001;
+}
+
+/* Navigation
+   ========================================================================== */
+
+#mw-navigation nav,
+#user-tools button[ type='submit' ],
+#mw-navigation .mw-wiki-logo,
+.mw-desktop-sitename {
+	display: none;
+}
+
+.mw-hamb {
+	box-sizing: border-box;
+	cursor: pointer;
+	display: inline-block;
+	font-size: inherit;
+	font-style: normal;
+	height: 1em;
+	margin-right: 1em;
+	position: relative;
+	text-indent: -9999px;
+	vertical-align: middle;
+	width: 1em;
+}
+
+.mw-hamb::before,
+.mw-hamb::after {
+	content: '';
+	display: block;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate( -50%, -50% );
+}
+
+.mw-hamb::before {
+	background: currentColor;
+	box-shadow: 0 -0.3em, 0 0.3em;
+	height: 0.15em;
+	width: 100%;
+}
+
+#mw-navbar {
+	margin-bottom: 4em;
+}
+
+#personal-echo-icons li {
+	right: 20px;
+	padding-right: 10px;
+}
+
+.profile-icon {
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 6px 6px 0 0;
+	color: #fff;
+	height: 6px;
+	margin-left: -14px;
+	margin-top: 20px;
+	position: absolute;
+	width: 14px;
+}
+
+.profile-icon::before {
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	content: '';
+	height: 8px;
+	left: 2px;
+	position: absolute;
+	top: -10px;
+	width: 8px;
+}
+
+#p-search {
+	width: 92vw;
+	position: absolute;
+	left: 100%;
+	top: calc( 100% + 1.5em );
+	margin-left: -92vw;
+}
+
+#searchInput {
+	width: 100%;
+}
+
+aside {
+	font-size: 80%;
+	padding: 0.5em 0;
+}
+
+aside .dropdown,
+#p-namespaces span {
+	padding-right: 1em;
+}
+
+/* Main content
+   ========================================================================== */
+
+#toc.toc {
+	border-left-width: 0;
+	border-right-width: 0;
+	display: block;
+	float: none;
+	max-width: 100%;
+	padding: 1em 0;
+	width: 100%;
+}
+
+.mw-editsection {
+	display: none;
+}
+
+.thumb,
+.thumb.tright,
+.thumb.tleft {
+	float: none;
+}
+
+.thumbinner {
+	max-width: 100%;
+}
+
+.mw-htmlform fieldset:not(.oo-ui-layout) table {
+	table-layout: fixed;
+	width: 100%;
+}
+
+.mw-htmlform fieldset:not(.oo-ui-layout) input {
+	max-width: 100%;
+}
+
+/* Footer
+   ========================================================================== */
+
+li.footer-icons {
+	padding-right: 1em;
+}

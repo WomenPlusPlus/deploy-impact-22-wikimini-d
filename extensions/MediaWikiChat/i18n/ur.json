@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Muhammad Shuaib",
+			"عثمان خان شاہ"
+		]
+	},
+	"chat-a-minute-ago": "ایک منٹ قبل",
+	"chat-message-from": "$1 کے جانب سے پیغام",
+	"chat-private-message-from": "$1 کے جانب سے مخصوص پیغام",
+	"chat-mentioned-by": "$1 نے درج کیا"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "預設",
+	"medik-desc": "用於捷克共和國布拉格查理大學第一醫學院的醫學 wiki 專題外觀。",
+	"medik-font-label": "字型大小",
+	"medik-tools-menu": "編輯與工具"
+}

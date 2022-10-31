@@ -1,0 +1,38 @@
+/*! Medik | CC0 license | https://bitbucket.org/wikiskripta/medik */
+
+.mw-mobile-sitename {
+	display: none;
+}
+
+#mw-navbar-left {
+	padding-left: 1em;
+}
+
+.mw-label {
+	white-space: nowrap;
+}
+
+.profile-icon {
+	display: none;
+}
+
+aside .dropdown,
+#p-namespaces span {
+	padding-right: 2em;
+}
+
+#personal-echo-icons li {
+	margin: 0 10px;
+}
+
+#toc.toc {
+	float: right;
+}
+
+#footer-icons {
+	float: right;
+}
+
+li.footer-icons {
+	padding-left: 1em;
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "par défaut",
+	"medik-desc": "Habillage pour WikiSkripta.eu, un projet de wiki médical de la première faculté de médecine, Université Charles (République tchèque).",
+	"medik-font-label": "Taille de police",
+	"medik-tools-menu": "Modification et outils"
+}

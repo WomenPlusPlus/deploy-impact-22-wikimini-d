@@ -1,0 +1,19 @@
+/*! Medik | CC0 license | https://bitbucket.org/wikiskripta/medik */
+
+body {
+	margin: 1em;
+}
+
+/* don't print these */
+*[ role='navigation' ],
+#siteSub,
+.toc,
+.mw-indicators,
+.mw-footer {
+	display: none;
+}
+
+/* no feedback window in print view (workaround for Extension:FeedbackUs) */
+#fbuModal {
+	display: none;
+}
