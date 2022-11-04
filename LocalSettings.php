@@ -19,7 +19,8 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 ## Uncomment this to disable output compression
 # $wgDisableOutputCompression = true;
 
-$wgSitename = "Test";
+$wgSitename = "easywiki";
+$wgMetaNamespace = "Easywiki";
 
 ## The URL base path to the directory containing the wiki;
 ## defaults for all runtime URL paths are based off of this.
@@ -40,7 +41,7 @@ $wgLogos = [
 	'1x' => "$wgResourceBasePath/resources/assets/change-your-logo.svg",
 	
 	
-	'icon' => "$wgResourceBasePath/resources/assets/change-your-logo-icon.svg",
+	'icon' => "$wgResourceBasePath/resources/assets/change-your-logo.svg",
 ];
 
 ## UPO means: this is also a user preference option
@@ -56,17 +57,49 @@ $wgEnotifWatchlist = false; # UPO
 $wgEmailAuthentication = true;
 
 ## Database settings
-$wgDBtype = "mysql";
-$wgDBserver = "localhost";
-$wgDBname = "wikiminiD";
-$wgDBuser = "root";
+$wgDBtype = "sqlite";
+$wgDBserver = "";
+$wgDBname = "easywiki_data";
+$wgDBuser = "";
 $wgDBpassword = "";
 
-# MySQL specific settings
-$wgDBprefix = "";
-
-# MySQL table options to use during installation or update
-$wgDBTableOptions = "ENGINE=InnoDB, DEFAULT CHARSET=binary";
+# SQLite-specific settings
+$wgSQLiteDataDir = "C:\\xampp\\htdocs\\mediawiki\\data";
+$wgObjectCaches[CACHE_DB] = [
+	'class' => SqlBagOStuff::class,
+	'loggroup' => 'SQLBagOStuff',
+	'server' => [
+		'type' => 'sqlite',
+		'dbname' => 'wikicache',
+		'tablePrefix' => '',
+		'variables' => [ 'synchronous' => 'NORMAL' ],
+		'dbDirectory' => $wgSQLiteDataDir,
+		'trxMode' => 'IMMEDIATE',
+		'flags' => 0
+	]
+];
+$wgLocalisationCacheConf['storeServer'] = [
+	'type' => 'sqlite',
+	'dbname' => "{$wgDBname}_l10n_cache",
+	'tablePrefix' => '',
+	'variables' => [ 'synchronous' => 'NORMAL' ],
+	'dbDirectory' => $wgSQLiteDataDir,
+	'trxMode' => 'IMMEDIATE',
+	'flags' => 0
+];
+$wgJobTypeConf['default'] = [
+	'class' => 'JobQueueDB',
+	'claimTTL' => 3600,
+	'server' => [
+		'type' => 'sqlite',
+		'dbname' => "{$wgDBname}_jobqueue",
+		'tablePrefix' => '',
+		'variables' => [ 'synchronous' => 'NORMAL' ],
+		'dbDirectory' => $wgSQLiteDataDir,
+		'trxMode' => 'IMMEDIATE',
+		'flags' => 0
+	]
+];
 
 # Shared database table
 # This has no effect unless $wgSharedDB is also set.
@@ -101,14 +134,14 @@ $wgLocaltimezone = "Europe/Berlin";
 ## be publicly accessible from the web.
 #$wgCacheDirectory = "$IP/cache";
 
-$wgSecretKey = "64ee7f4a96a0e3a736aa19e8ae934a6adcbda461e808bf518d793538de6b25c0";
+$wgSecretKey = "fc3f40600f3683158001a862fcd0fea81e014da7079ab46fdcb5a63a7db3a67f";
 
 # Changing this will log out all existing sessions.
 $wgAuthenticationTokenVersion = "1";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "4569f33bb4834732";
+$wgUpgradeKey = "8ce9586089cc38f2";
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
@@ -123,19 +156,26 @@ $wgDiff3 = "";
 
 ## Default skin: you can change the default skin. Use the internal symbolic
 ## names, e.g. 'vector' or 'monobook':
-$wgDefaultSkin = 'medik';
+$wgDefaultSkin = "medik";
 
 # Enabled skins.
 # The following skins were automatically enabled:
+wfLoadSkin( 'Medik' );
 wfLoadSkin( 'MinervaNeue' );
 wfLoadSkin( 'MonoBook' );
 wfLoadSkin( 'Timeless' );
 wfLoadSkin( 'Vector' );
-wfLoadSkin( 'Medik' );
 
+
+# Enabled extensions. Most of the extensions are enabled by adding
+# wfLoadExtension( 'ExtensionName' );
+# to LocalSettings.php. Check specific extension documentation for more details.
+# The following extensions were automatically enabled:
+wfLoadExtension( 'MediaWikiChat' );
+wfLoadExtension( 'VisualEditor' );
+wfLoadExtension( 'WikiEditor' );
 
 
 # End of automatically generated settings.
 # Add more configuration options below.
 
-wfLoadExtension( 'MediaWikiChat' );
