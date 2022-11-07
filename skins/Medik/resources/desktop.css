@@ -10,7 +10,7 @@ body {
 
 #mw-navbar-left {
 	padding-left: 1em;
-	position: absolute;
+	/* position: absolute; */
 }
 
 .mw-label {

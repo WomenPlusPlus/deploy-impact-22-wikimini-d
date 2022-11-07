@@ -3,33 +3,43 @@
 <div id="mw-wrapper">
 
 	<!-- navbar -->
-	<div id="mw-navbar" role="navigation" class="navbar-expand-lg navbar-light d-flex justify-content-between bg-ws">
-		<div id="mw-navbar-left" class="navbar d-flex">
-			{{{html-logo}}}
-		</div>
-		<div  id="mw-navbar-center" class="navbar justify-content-center">
-			{{{html-search}}}
-			<div id="user-roles" class="btn">
-				<a href="Parents">Parents</a>
-				<a href="Child">Child</a>
-				<a href="Teachers">Teachers</a>
+	<div id="mw-navbar" role="navigation" class="navbar-expand-lg navbar-light justify-content-between bg-ws">
+		<div class="row h-100">
+			<div id="mw-navbar-left" class="col navbar d-flex align-items-baseline">
+				<div class="pl-3">
+					{{{html-logo}}}
+				</div>
 			</div>
-			<div class="dropdown">	
-				{{{html-userlinks}}}
+			<div class="col-8 position-relative">
+				<div class="navbar d-flex">
+					{{{html-search}}}
+					<div id="user-roles" class="btn">
+						<a href="Parents">Parents</a>
+						<a href="Child">Child</a>
+						<a href="Teachers">Teachers</a>
+					</div>
+					<div class="dropdown">	
+						{{{html-userlinks}}}
+					</div>
+				</div>
+				<div class="position-absolute h-100 w-100 d-flex justify-content-center align-items-center">
+					<div class="text-center">
+						<p class="m-0">A fun and free educative tool</p>
+						<p class="m-0">to learn how to write useful texts as kid for others kids.</p>
+						<button type="button" class="btn btn-primary">Register</button>
+					</div>
+				</div>
 			</div>
-		</div>
-		<div class="d-flex w-100 justify-content-center align-items-center">
-			<p>A fun and free educative tool to learn how to write useful texts as kid for others kids.
-			</p>
+			<div class="col"></div>
 		</div>
 	</div>
 
 	<!-- sidebar and main content wrapper -->
-	<div class="container-fluid" id="mw-main-container">
-		<div class="row">
+	{{! <div class="container-fluid" id="mw-main-container">
+		<div class="row"> }}
 
 			<!-- navigation sidebar -->
-			<div id="mw-navigation" role="navigation" class="col-12 {{medik-sidebar-width}}" style="font-size: {{medik-fontsize}};">
+			<!-- <div id="mw-navigation" role="navigation" class="col-12 {{medik-sidebar-width}}" style="font-size: {{medik-fontsize}};">
 				<nav class="nav flex-column">
 					<h2>
 						{{{html-navigation-heading}}}
@@ -38,33 +48,36 @@
 						{{{html-site-navigation}}}
 					</div>
 				</nav>
-			</div>
+			</div> -->
 
 			<!-- main content -->
-			<div class="col-12 {{medik-content-width}} py-md-3 px-md-5">
-				{{{html-sitenotice}}}
-				{{{html-talknotice}}}
-				{{{html-aside}}}
-				<div class="mw-body" id="content" style="font-size: {{medik-fontsize}};" role="main">
-					{{{html-indicators}}}
-					<h1 id="firstHeading" class="firstHeading" lang="{{pagelanguage}}">{{{html-pagetitle}}}</h1>
-					<div id="siteSub">{{{html-tagline}}}</div>
-					<div class="mw-body-content" id="bodyContent">
-							<div id="contentSub">
-								{{{html-pagesubtitle}}}
-								<p>{{{html-undelete}}}</p>
-							</div>
-							{{{html-bodycontent}}}
-							{{{html-clear}}}
-							<div class="printfooter">{{{html-printfooter}}}</div>
-							{{{html-categorylinks}}}
+			<div class="row">
+				<div class="col"></div>
+				<div class="col-8 {{medik-content-width}} py-md-3 px-md-5">
+					{{{html-sitenotice}}}
+					{{{html-talknotice}}}
+					{{{html-aside}}}
+					<div class="mw-body" id="content" style="font-size: {{medik-fontsize}};" role="main">
+						{{{html-indicators}}}
+						<h1 id="firstHeading" class="firstHeading" lang="{{pagelanguage}}">{{{html-pagetitle}}}</h1>
+						<div id="siteSub">{{{html-tagline}}}</div>
+						<div class="mw-body-content" id="bodyContent">
+								<div id="contentSub">
+									{{{html-pagesubtitle}}}
+									<p>{{{html-undelete}}}</p>
+								</div>
+								{{{html-bodycontent}}}
+								{{{html-clear}}}
+								<div class="printfooter">{{{html-printfooter}}}</div>
+								{{{html-categorylinks}}}
+						</div>
+						{{{html-dataaftercontent}}}
 					</div>
-					{{{html-dataaftercontent}}}
 				</div>
+				<div class="col"></div>
 			</div>
-
-		</div>
-	</div>
+		{{! </div>
+	</div> }}
 
 	{{{html-footer}}}
 </div>
