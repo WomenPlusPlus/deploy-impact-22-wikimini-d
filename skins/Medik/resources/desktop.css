@@ -1,11 +1,16 @@
 /*! Medik | CC0 license | https://bitbucket.org/wikiskripta/medik */
 
+body {
+	background-color: #fff;
+}
+
 .mw-mobile-sitename {
 	display: none;
 }
 
 #mw-navbar-left {
 	padding-left: 1em;
+	position: absolute;
 }
 
 .mw-label {

@@ -3,12 +3,24 @@
 <div id="mw-wrapper">
 
 	<!-- navbar -->
-	<div id="mw-navbar" role="navigation" class="navbar navbar-expand-lg navbar-light d-flex justify-content-between bg-ws">
-		<div id="mw-navbar-left">
+	<div id="mw-navbar" role="navigation" class="navbar-expand-lg navbar-light d-flex justify-content-between bg-ws">
+		<div id="mw-navbar-left" class="navbar d-flex">
 			{{{html-logo}}}
 		</div>
-		<div class="dropdown" id="mw-navbar-right">
-			{{{html-search-userlinks}}}
+		<div  id="mw-navbar-center" class="navbar justify-content-center">
+			{{{html-search}}}
+			<div id="user-roles" class="btn">
+				<a href="Parents">Parents</a>
+				<a href="Child">Child</a>
+				<a href="Teachers">Teachers</a>
+			</div>
+			<div class="dropdown">	
+				{{{html-userlinks}}}
+			</div>
+		</div>
+		<div class="d-flex w-100 justify-content-center align-items-center">
+			<p>A fun and free educative tool to learn how to write useful texts as kid for others kids.
+			</p>
 		</div>
 	</div>
 

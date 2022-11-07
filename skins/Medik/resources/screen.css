@@ -2,7 +2,9 @@
 
 /* Basic typography
    ========================================================================== */
-
+body {
+	background-color: #fff;
+}
 a.feedlink {
 	background-position: 6px center;
 	padding-left: 1.5em;
@@ -30,6 +32,11 @@ table caption {
 	background-color: var( --medik );
 }
 
+#mw-navbar {
+	height: 300px;
+	position: relative;
+}
+
 #mw-navbar .mw-wiki-logo {
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -50,17 +57,26 @@ table caption {
 	width: 10em;
 }
 
-#mw-navbar-right {
+#mw-navbar-center {
 	display: flex;
+	width: 100%;
+	position: absolute;
 }
 
 #searchInput {
 	max-width: 100%;
 }
 
+/* Login, log out and other links */
 #user-tools button {
-	color: #fff;
+	color: rgb(0, 0, 0);
 }
+
+/* Teache, Child, Parents buttons */
+#user-roles a {
+	color: rgb(0, 0, 0);
+}
+
 
 #p-personal ul,
 aside ul {
@@ -105,7 +121,7 @@ aside li a:not( .dropdown-item ):hover {
 #p-banner:hover,
 #p-banner:visited,
 .mw-hamb {
-	color: #fff;
+	color: rgb(0, 0, 0);
 }
 
 a.dropdown-item:visited {
@@ -214,6 +230,7 @@ aside a:not( .disabled ) {
 
 #mw-main-container {
 	background-color: #fff;
+	height: 100%;
 }
 
 #siteNotice {

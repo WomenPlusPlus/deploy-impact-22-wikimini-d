@@ -32,7 +32,8 @@ class MedikTemplate extends BaseTemplate {
 			'html-skinstart' => $this->get( 'headelement' ),
 			'medik-color' => RequestContext::getMain()->getConfig()->get( 'MedikColor' ),
 			'html-logo' => $this->getLogo(),
-			'html-search-userlinks' => $this->getSearch() . $this->getUserLinks(),
+			'html-search' => $this->getSearch(),
+			'html-userlinks' => $this->getUserLinks(),
 			'medik-sidebar-width' => $sidebarWidth[
 				RequestContext::getMain()->getConfig()->get( 'MedikContentWidth' )
 				] ?? $sidebarWidth['default'],
