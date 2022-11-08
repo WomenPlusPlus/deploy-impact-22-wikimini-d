@@ -64,7 +64,8 @@ table caption {
 }
 
 #searchInput {
-	max-width: 100%;
+	width: 330px;
+	border-radius: 20px;
 }
 
 /* Login, log out and other links */

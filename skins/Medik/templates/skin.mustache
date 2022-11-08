@@ -11,24 +11,26 @@
 				</div>
 			</div>
 			<div class="col-8 position-relative">
+				<div class="position-absolute top-0 start-0 h-100 w-100 d-flex justify-content-center align-items-center">
+					<div class="text-center">
+						<p class="m-0">A fun and free educative tool</p>
+						<p class="m-0">to learn how to write useful texts as kid for others kids.</p>
+						<button type="button" class="btn btn-primary">Start to write</button>
+					</div>
+				</div>
 				<div class="navbar d-flex">
 					{{{html-search}}}
+
 					<div id="user-roles" class="btn">
-						<a href="Parents">Parents</a>
-						<a href="Child">Child</a>
+						<a href="Parents" class="pr-3">Parents</a>
+						<a href="Child" class="pr-3">Child</a>
 						<a href="Teachers">Teachers</a>
 					</div>
 					<div class="dropdown">	
 						{{{html-userlinks}}}
 					</div>
 				</div>
-				<div class="position-absolute h-100 w-100 d-flex justify-content-center align-items-center">
-					<div class="text-center">
-						<p class="m-0">A fun and free educative tool</p>
-						<p class="m-0">to learn how to write useful texts as kid for others kids.</p>
-						<button type="button" class="btn btn-primary">Register</button>
-					</div>
-				</div>
+				
 			</div>
 			<div class="col"></div>
 		</div>
@@ -54,9 +56,9 @@
 			<div class="row">
 				<div class="col"></div>
 				<div class="col-8 {{medik-content-width}} py-md-3 px-md-5">
-					{{{html-sitenotice}}}
+					 {{{html-sitenotice}}} 
 					{{{html-talknotice}}}
-					{{{html-aside}}}
+					
 					<div class="mw-body" id="content" style="font-size: {{medik-fontsize}};" role="main">
 						{{{html-indicators}}}
 						<h1 id="firstHeading" class="firstHeading" lang="{{pagelanguage}}">{{{html-pagetitle}}}</h1>
@@ -78,7 +80,18 @@
 			</div>
 		{{! </div>
 	</div> }}
-
-	{{{html-footer}}}
+	
+	<!-- {{{html-footer}}} -->
+	<div class="row">
+		<div class="col">
+			{{{html-logo}}}
+		</div>
+		<div class="col-8">
+			{{{html-aside}}}
+		</div>
+		<div class="col">
+		</div>
+	</div>
+	
 </div>
 {{{html-skinend}}}
