@@ -73,7 +73,7 @@ table caption {
 	color: rgb(0, 0, 0);
 }
 
-/* Teache, Child, Parents buttons */
+/* Teacher, Child, Parents buttons */
 #user-roles a {
 	color: rgb(0, 0, 0);
 }
@@ -361,6 +361,13 @@ aside a:not( .disabled ) {
 
 /* Footer
    ========================================================================== */
+.mw-newfooter {
+	min-height: 100px;
+}
+
+.mw-newfooter-help {
+	width: 150px;
+}
 
 .mw-footer {
 	background-color: #fff;
