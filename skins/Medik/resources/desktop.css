@@ -1,7 +1,9 @@
 /*! Medik | CC0 license | https://bitbucket.org/wikiskripta/medik */
 
 body {
-	background-color: #fff;
+	background-color: #ffffff;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 .mw-mobile-sitename {

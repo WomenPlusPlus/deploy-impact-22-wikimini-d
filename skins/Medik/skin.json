@@ -21,7 +21,7 @@
 	},
 	"config": {
 		"MedikColor": {
-			"value": "#ffbe00",
+			"value": "#AFD36E",
 			"description": "Default color of the wiki theme."
 		},
 		"MedikContentWidth": {

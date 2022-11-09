@@ -5,32 +5,34 @@
 	<!-- navbar -->
 	<div id="mw-navbar" role="navigation" class="navbar-expand-lg navbar-light justify-content-between bg-ws">
 		<div class="row h-100">
-			<div id="mw-navbar-left" class="col navbar d-flex align-items-baseline">
+			<div id="mw-navbar-left" class="col navbar d-flex align-items-baseline border-right">
 				<div class="pl-3">
 					{{{html-logo}}}
 				</div>
 			</div>
-			<div class="col-8 position-relative">
+			<div class="col-8 position-relative py-2">
+				<div class="position-absolute top-0 start-0 h-100 w-100 d-flex justify-content-center align-items-center">
+					<div class="text-center">
+						<p class="m-0">A fun and free educative tool</p>
+						<p class="m-0">to learn how to write useful texts as kid for others kids.</p>
+						<button type="button" class="btn btn-primary">Start writing</button>
+					</div>
+				</div>
 				<div class="navbar d-flex">
 					{{{html-search}}}
+
 					<div id="user-roles" class="btn">
-						<a href="Parents">Parents</a>
-						<a href="Child">Child</a>
+						<a href="Parents" class="pr-3">Parents</a>
+						<a href="Child" class="pr-3">Child</a>
 						<a href="Teachers">Teachers</a>
 					</div>
 					<div class="dropdown">	
 						{{{html-userlinks}}}
 					</div>
 				</div>
-				<div class="position-absolute h-100 w-100 d-flex justify-content-center align-items-center">
-					<div class="text-center">
-						<p class="m-0">A fun and free educative tool</p>
-						<p class="m-0">to learn how to write useful texts as kid for others kids.</p>
-						<button type="button" class="btn btn-primary">Register</button>
-					</div>
-				</div>
+				
 			</div>
-			<div class="col"></div>
+			<div class="col border-left"></div>
 		</div>
 	</div>
 
@@ -48,37 +50,60 @@
 						{{{html-site-navigation}}}
 					</div>
 				</nav>
-			</div> -->
-
-			<!-- main content -->
-			<div class="row">
-				<div class="col"></div>
-				<div class="col-8 {{medik-content-width}} py-md-3 px-md-5">
-					{{{html-sitenotice}}}
-					{{{html-talknotice}}}
-					{{{html-aside}}}
-					<div class="mw-body" id="content" style="font-size: {{medik-fontsize}};" role="main">
-						{{{html-indicators}}}
-						<h1 id="firstHeading" class="firstHeading" lang="{{pagelanguage}}">{{{html-pagetitle}}}</h1>
-						<div id="siteSub">{{{html-tagline}}}</div>
-						<div class="mw-body-content" id="bodyContent">
-								<div id="contentSub">
-									{{{html-pagesubtitle}}}
-									<p>{{{html-undelete}}}</p>
-								</div>
-								{{{html-bodycontent}}}
-								{{{html-clear}}}
-								<div class="printfooter">{{{html-printfooter}}}</div>
-								{{{html-categorylinks}}}
-						</div>
-						{{{html-dataaftercontent}}}
-					</div>
-				</div>
-				<div class="col"></div>
-			</div>
+			</div> 
 		{{! </div>
-	</div> }}
+	</div> }} -->
 
-	{{{html-footer}}}
+	<!-- main content -->
+	<div class="row ">
+		<div class="col border-right border-top"></div>
+		<div class="col-8 border-top">
+			<div class="{{medik-content-width}} py-md-2 px-md-1">
+				{{{html-sitenotice}}} 
+				{{{html-talknotice}}}
+				<div class="mw-body" id="content" style="font-size: {{medik-fontsize}};" role="main">
+
+					{{{html-indicators}}}
+					<h1 id="firstHeading" class="firstHeading" lang="{{pagelanguage}}">{{{html-pagetitle}}}</h1>
+					<a href="Parents" class="pr-3">Parents</a>
+					<div id="siteSub">{{{html-tagline}}}</div>
+					<div class="mw-body-content" id="bodyContent">
+							<div id="contentSub">
+								{{{html-pagesubtitle}}}
+								<p>{{{html-undelete}}}</p>
+							</div>
+							{{{html-bodycontent}}}
+							{{{html-clear}}}
+							<div class="printfooter">{{{html-printfooter}}}</div>
+							{{{html-categorylinks}}}
+					</div>
+					{{{html-dataaftercontent}}}
+				</div>
+			</div>
+		</div>
+		<div class="col border-left border-top">
+		</div>
+	
+		<div class="w-100 border-top"></div>
+
+		<!-- {{{html-footer}}} -->
+		<div class="col border-right">
+			<div class="pl-3 mw-newfooter">
+				{{{html-logo}}}
+			</div>
+		</div>
+		<div class="col-8 d-flex justify-content-center py-2">
+			{{{html-aside}}}
+			<div class="mw-newfooter-help">
+				<p>HELP US</p>
+				<p><small>Lorem in illum augue feugiat commodo eum tation facilisi.</small></p>
+				<button type="button" class="btn btn-primary">Donate</button>
+			</div>
+		</div>
+		<div class="col border-left">
+		
+		</div>
+	</div>
+	
 </div>
 {{{html-skinend}}}

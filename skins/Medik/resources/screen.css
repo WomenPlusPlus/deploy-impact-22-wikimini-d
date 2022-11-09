@@ -3,7 +3,13 @@
 /* Basic typography
    ========================================================================== */
 body {
-	background-color: #fff;
+	background-color: #ffffff;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#mw-wrapper {
+	background-color: #AFD36E;
 }
 a.feedlink {
 	background-position: 6px center;
@@ -64,7 +70,8 @@ table caption {
 }
 
 #searchInput {
-	max-width: 100%;
+	width: 280px;
+	border-radius: 20px;
 }
 
 /* Login, log out and other links */
@@ -72,7 +79,7 @@ table caption {
 	color: rgb(0, 0, 0);
 }
 
-/* Teache, Child, Parents buttons */
+/* Teacher, Child, Parents buttons */
 #user-roles a {
 	color: rgb(0, 0, 0);
 }
@@ -360,6 +367,13 @@ aside a:not( .disabled ) {
 
 /* Footer
    ========================================================================== */
+.mw-newfooter {
+	min-height: 100px;
+}
+
+.mw-newfooter-help {
+	width: 150px;
+}
 
 .mw-footer {
 	background-color: #fff;
