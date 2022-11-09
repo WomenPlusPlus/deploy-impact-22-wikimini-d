@@ -3,7 +3,7 @@
 /* Basic typography
    ========================================================================== */
 body {
-	background-color: #ffffff;
+	background-color: #AFD36E;
 	max-width: 1000px;
 	margin: 0 auto;
 }
@@ -367,11 +367,11 @@ aside a:not( .disabled ) {
 
 /* Footer
    ========================================================================== */
-.mw-newfooter {
+.newfooter {
 	min-height: 100px;
 }
 
-.mw-newfooter-help {
+.newfooter-help {
 	width: 150px;
 }
 
