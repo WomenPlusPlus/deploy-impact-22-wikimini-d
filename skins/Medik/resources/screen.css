@@ -3,7 +3,13 @@
 /* Basic typography
    ========================================================================== */
 body {
-	background-color: #fff;
+	background-color: #ffffff;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#mw-wrapper {
+	background-color: #AFD36E;
 }
 a.feedlink {
 	background-position: 6px center;
@@ -64,7 +70,7 @@ table caption {
 }
 
 #searchInput {
-	width: 330px;
+	width: 280px;
 	border-radius: 20px;
 }
 
