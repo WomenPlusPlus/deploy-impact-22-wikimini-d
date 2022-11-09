@@ -18,10 +18,10 @@
 						<button type="button" class="btn btn-primary">Start writing</button>
 					</div>
 				</div>
-				<div class=" d-flex">
+				<div class="navbar d-flex">
 					{{{html-search}}}
 					<div id="user-roles" class="btn">
-						<a href="Parents" class="pr-3 pr-sm-1">Parents</a>
+						<a href="Parents" class="pr-3">Parents</a>
 						<a href="Child" class="pr-3">Child</a>
 						<a href="Teachers">Teachers</a>
 					</div>
@@ -56,19 +56,17 @@
 	<!-- main content -->
 	<div id="mw-newmaincontent" class="row ">
 		<div class="col border-right border-top"></div>
-		<div class="col-md-8 border-top">
-			<div class="{{medik-content-width}} py-md-2 px-md-1">
-				{{{html-sitenotice}}} 
-				{{{html-talknotice}}}
+		<div class="col-md-8 border-top py-3">
+				<!-- {{{html-sitenotice}}} -->
+				<!-- {{{html-talknotice}}} -->
+				<!-- {{{html-aside}}} -->
 				<div class="mw-body" id="content" style="font-size: {{medik-fontsize}};" role="main">
-
-					{{{html-indicators}}}
-					<h1 id="firstHeading" class="firstHeading" lang="{{pagelanguage}}">{{{html-pagetitle}}}</h1>
-					<a href="Parents" class="pr-3">Parents</a>
+					<!-- {{{html-indicators}}} -->
+					<!-- <h1 id="firstHeading" class="firstHeading" lang="{{pagelanguage}}">{{{html-pagetitle}}}</h1> -->
 					<div id="siteSub">{{{html-tagline}}}</div>
 					<div class="mw-body-content" id="bodyContent">
 							<div id="contentSub">
-								{{{html-pagesubtitle}}}
+								<!-- {{{html-pagesubtitle}}} -->
 								<p>{{{html-undelete}}}</p>
 							</div>
 							{{{html-bodycontent}}}
@@ -77,6 +75,25 @@
 							{{{html-categorylinks}}}
 					</div>
 					{{{html-dataaftercontent}}}
+				</div>
+
+			<div class="py-3 d-flex">
+				<div style="width: 50%">
+					<h6>Fun and easy way to learn</h6>
+					<div class="py-3">It's time to discover new information, write and share your article, and most importantly, have fun with your friends. Together, let's collect badges and explore learning adventures with Wikimini.</div>
+					<div class="d-flex justify-content-between">
+						<button type="button" class="btn btn-primary">Register as a child</button>
+						<a href="">Watch video</a>
+					</div>
+				</div>
+				<img class="" src="" alt="">
+			</div>
+			<div class="card" style="width: 18rem;">
+				<img class="card-img-right" src="../resources/images/cat2.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
 				</div>
 			</div>
 		</div>
