@@ -4,14 +4,14 @@
 
 	<!-- navbar -->
 	<div id="mw-navbar" role="navigation" class="navbar-expand-lg navbar-light justify-content-between bg-ws">
-		<div class="row h-100">
+		<div id="mw-newlogo" class="row h-100">
 			<div id="mw-navbar-left" class="col navbar d-flex align-items-baseline border-right">
 				<div class="pl-3">
 					{{{html-logo}}}
 				</div>
 			</div>
-			<div class="col-8 position-relative py-2">
-				<div class="position-absolute top-0 start-0 h-100 w-100 d-flex justify-content-center align-items-center">
+			<div class="col-md-8 position-relative py-2">
+				<div id="mw-newnavcontent" class="position-absolute top-0 start-0 h-100 w-100 d-flex justify-content-center align-items-center">
 					<div class="text-center">
 						<p class="m-0">A fun and free educative tool</p>
 						<p class="m-0">to learn how to write useful texts as kid for others kids.</p>
@@ -20,7 +20,6 @@
 				</div>
 				<div class="navbar d-flex">
 					{{{html-search}}}
-
 					<div id="user-roles" class="btn">
 						<a href="Parents" class="pr-3">Parents</a>
 						<a href="Child" class="pr-3">Child</a>
@@ -55,21 +54,19 @@
 	</div> }} -->
 
 	<!-- main content -->
-	<div class="row ">
+	<div id="mw-newmaincontent" class="row ">
 		<div class="col border-right border-top"></div>
-		<div class="col-8 border-top">
-			<div class="{{medik-content-width}} py-md-2 px-md-1">
-				{{{html-sitenotice}}} 
-				{{{html-talknotice}}}
+		<div class="col-md-8 border-top py-3">
+				<!-- {{{html-sitenotice}}} -->
+				<!-- {{{html-talknotice}}} -->
+				<!-- {{{html-aside}}} -->
 				<div class="mw-body" id="content" style="font-size: {{medik-fontsize}};" role="main">
-
-					{{{html-indicators}}}
-					<h1 id="firstHeading" class="firstHeading" lang="{{pagelanguage}}">{{{html-pagetitle}}}</h1>
-					<a href="Parents" class="pr-3">Parents</a>
+					<!-- {{{html-indicators}}} -->
+					<!-- <h1 id="firstHeading" class="firstHeading" lang="{{pagelanguage}}">{{{html-pagetitle}}}</h1> -->
 					<div id="siteSub">{{{html-tagline}}}</div>
 					<div class="mw-body-content" id="bodyContent">
 							<div id="contentSub">
-								{{{html-pagesubtitle}}}
+								<!-- {{{html-pagesubtitle}}} -->
 								<p>{{{html-undelete}}}</p>
 							</div>
 							{{{html-bodycontent}}}
@@ -79,7 +76,26 @@
 					</div>
 					{{{html-dataaftercontent}}}
 				</div>
+
+			<div class="py-3 d-flex">
+				<div style="width: 50%">
+					<h6>Fun and easy way to learn</h6>
+					<div class="py-3">It's time to discover new information, write and share your article, and most importantly, have fun with your friends. Together, let's collect badges and explore learning adventures with Wikimini.</div>
+					<div class="d-flex justify-content-between">
+						<button type="button" class="btn btn-primary">Register as a child</button>
+						<a href="">Watch video</a>
+					</div>
+				</div>
+				<img class="" src="" alt="">
 			</div>
+			{{! <div class="card" style="width: 18rem;">
+				<img class="card-img-right" src="../resources/images/cat2.jpg" alt="Card image cap">
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div> }}
 		</div>
 		<div class="col border-left border-top">
 		</div>
@@ -87,20 +103,22 @@
 		<div class="w-100 border-top"></div>
 
 		<!-- {{{html-footer}}} -->
-		<div class="col border-right">
-			<div class="pl-3 mw-newfooter">
+		<div id="mw-footer-col1" class="col border-right">
+			<div class="pl-3 newfooter">
 				{{{html-logo}}}
 			</div>
 		</div>
-		<div class="col-8 d-flex justify-content-center py-2">
-			{{{html-aside}}}
-			<div class="mw-newfooter-help">
+		<div class="col-md-8 d-flex justify-content-center py-2">
+			<div>
+				{{{html-aside}}}
+			</div>
+			<div class="newfooter-help">
 				<p>HELP US</p>
 				<p><small>Lorem in illum augue feugiat commodo eum tation facilisi.</small></p>
 				<button type="button" class="btn btn-primary">Donate</button>
 			</div>
 		</div>
-		<div class="col border-left">
+		<div id="mw-footer-col2" class="col border-left">
 		
 		</div>
 	</div>
