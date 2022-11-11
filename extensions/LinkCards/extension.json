@@ -1,0 +1,45 @@
+{
+	"name": "LinkCards",
+	"author": [
+		"Sam Wilson"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:LinkCards",
+	"descriptionmsg": "linkcards-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "parserhook",
+	"version": "0.4.0",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\LinkCards\\": "includes/"
+	},
+	"HookHandlers": {
+		"LinkCardsHooks": {
+			"class": "MediaWiki\\Extension\\LinkCards\\Hooks"
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "LinkCardsHooks"
+	},
+	"MessagesDirs": {
+		"LinkCards": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"LinkCardsMagic": "LinkCards.i18n.magic.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources/",
+		"remoteExtPath": "LinkCards/resources/"
+	},
+	"ResourceModules": {
+		"ext.LinkCards": {
+			"styles": [
+				"link-cards.less"
+			]
+		}
+	},
+	"manifest_version": 2
+}
