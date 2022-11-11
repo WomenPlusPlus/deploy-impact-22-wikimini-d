@@ -60,10 +60,10 @@ table caption {
 	background-repeat: no-repeat;
 	background-size: contain;
 	display: inline-block;
-	height: 1.4em;
-	margin-right: 0.5em;
-	position: relative;
-	top: 0.4em;
+	height: 50px;
+	margin-right: 0;
+	position: absolute;
+	top: 0;
 	width: 1.4em;
 }
 
