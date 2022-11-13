@@ -39,19 +39,21 @@ table caption {
 
 .header-img-kids {
 	position: absolute;
-	top: 0;
+	bottom: -50px;
+	right: 0;
 	z-index: 0;
 }
 
 .header-img-owl {
 	position: absolute;
-	bottom: 70px;
-	right: 120px;
+	bottom: 30px;
+	left: -200px;
 	z-index: 0;
+	
 }
 
 #mw-navbar {
-	height: 300px;
+	height: 450px;
 	position: relative;
 }
 
@@ -82,7 +84,7 @@ table caption {
 }
 
 #searchInput {
-	width: 280px;
+	width: 200px;
 	border-radius: 20px;
 }
 
