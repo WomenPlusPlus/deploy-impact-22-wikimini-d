@@ -1,0 +1,38 @@
+{
+	"name": "wikimedia-au/link-cards",
+	"description": "A MediaWiki extension that adds a parser function for easy creation of linked 'card' UI components.",
+	"homepage": "https://www.mediawiki.org/wiki/Extension:LinkCards",
+	"type": "mediawiki-extension",
+	"license": "GPL-3.0-or-later",
+	"authors": [
+		{
+			"name": "Sam Wilson",
+			"homepage": "https://samwilson.id.au",
+			"role": "developer"
+		}
+	],
+	"support": {
+		"issues": "https://phabricator.wikimedia.org/"
+	},
+	"require": {
+		"symfony/polyfill-php80": "^1.0"
+	},
+	"require-dev": {
+		"mediawiki/mediawiki-codesniffer": "39.0.0",
+		"mediawiki/minus-x": "1.1.1",
+		"php-parallel-lint/php-console-highlighter": "1.0.0",
+		"php-parallel-lint/php-parallel-lint": "1.3.2"
+	},
+	"scripts": {
+		"test": [
+			"composer validate",
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"phpcs -p -s",
+			"minus-x check ."
+		],
+		"fix": [
+			"minus-x fix .",
+			"phpcbf"
+		]
+	}
+}
