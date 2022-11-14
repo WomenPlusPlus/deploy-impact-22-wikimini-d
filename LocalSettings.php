@@ -182,6 +182,11 @@ wfLoadExtension( 'WikiEditor' );
 # End of automatically generated settings.
 # Add more configuration options below.
 
+# Scribunto extension for templates
 wfLoadExtension( 'Scribunto' );
 $wgScribuntoDefaultEngine = 'luastandalone';
+
+# The TemplateStyles extension introduces a <templatestyles> tag to 
+# specify that a stylesheet should be loaded from a wiki page.
+wfLoadExtension( 'TemplateStyles' );
 
