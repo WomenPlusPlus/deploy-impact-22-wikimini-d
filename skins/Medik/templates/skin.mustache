@@ -4,29 +4,34 @@
 
 	<!-- navbar -->
 	<div id="mw-navbar" role="navigation" class="position-relative navbar-expand-lg navbar-light justify-content-between bg-ws">
-		<img src="http://localhost/mediawiki/skins/Medik/assets/header_kids.png" width="450" class="header-img-kids zindex-tooltip"/>
-		<img src="http://localhost/mediawiki/skins/Medik/assets/header_owl_leftgaze.png" width="200" class="header-img-owl"/>
+		<!-- Header pictures -->
+		<div class="header-img-kids">
+			<img src="http://localhost/mediawiki/skins/Medik/assets/header_owl_rightgaze.png" width="230" class="header-img-owl"/>
+			<img src="http://localhost/mediawiki/skins/Medik/assets/header_kids.png" width="450" class=""/>
+		</div>
+		
 		<div id="mw-newlogo" class="row h-100">
 			<div id="mw-navbar-left" class="position-relative col navbar d-flex align-items-baseline">
 				<div class="">
 					{{{html-logo}}}
 				</div>
 			</div>
-			<div class="col-md-8 position-relative py-2">
-				<div id="mw-newnavcontent" class="position-absolute top-0 start-0 h-100 w-100 d-flex justify-content-center align-items-center">
-					<div class="text-center">
-						<p class="m-0">A fun and free educative tool</p>
-						<p class="m-0">to learn how to write useful texts as kid for others kids.</p>
-						<button type="button" class="btn btn-primary">Start writing</button>
+			<div class="col-md-8 position-relative py-3">
+				<div id="mw-newnavcontent" class="position-absolute top-0 start-0 h-100 w-100 d-flex justify-content-left align-items-center">
+					<div class="text-left">
+						<h3 class="display-4">Make a difference</h3>
+						<div class="m-0 mt-4 w-50">"Wikimini, learn, play and act! Have fun participating in this educational journey, whether in class or at home!"</div>
+						<button type="button" class="btn bg-warning mt-5">LET'S GET STARTED</button>
 					</div>
 				</div>
 				<div class="navbar d-flex">
-					{{{html-search}}}
+					
 					<div id="user-roles" class="btn">
 						<a href="Parents" class="pr-3">Parents</a>
 						<a href="Child" class="pr-3">Child</a>
 						<a href="Teachers">Teachers</a>
 					</div>
+					{{{html-search}}}
 					<div class="dropdown">	
 						{{{html-userlinks}}}
 					</div>
@@ -64,7 +69,7 @@
 				<!-- {{{html-aside}}} -->
 				<div class="mw-body" id="content" style="font-size: {{medik-fontsize}};" role="main">
 					<!-- {{{html-indicators}}} -->
-					<h1 id="firstHeading" class="firstHeading" lang="{{pagelanguage}}">{{{html-pagetitle}}}</h1>
+					<!-- <h1 id="firstHeading" class="firstHeading" lang="{{pagelanguage}}">{{{html-pagetitle}}}</h1> -->
 					<div id="siteSub">{{{html-tagline}}}</div>
 					<div class="mw-body-content" id="bodyContent">
 												<tr>
