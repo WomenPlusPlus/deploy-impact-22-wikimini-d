@@ -130,7 +130,7 @@ class Scribunto_LuaStandaloneInterpreter extends Scribunto_LuaInterpreter {
 			// http://news.php.net/php.internals/21796
 			// Unlike passthru(), it is not fixed in any PHP version,
 			// so we use the fix similar to one in wfShellExec()
-			$cmd = '"' . $cmd . '"';
+			// $cmd = '"' . $cmd . '"';
 		}
 
 		$this->logger->debug( __METHOD__ . ": creating interpreter: $cmd" );
