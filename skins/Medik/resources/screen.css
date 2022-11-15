@@ -52,6 +52,23 @@ table caption {
 	
 }
 
+.wimi-button-orange {
+	color:black;
+	font-size: 500;
+	font-weight: 600;
+	padding: 10px 12px !important;
+	margin-left: 2px;
+	text-decoration: none;
+	background-color: #E29E3B;
+	border-radius: 8px;
+	border: 1px solid #E29E3B;
+	box-shadow: -1px -1px #F7B239, -2px -2px #E29E3B;
+  }
+
+.wimi-button-orange:hover {
+	background-color: white !important;
+}
+
 #mw-navbar {
 	height: 450px;
 	position: relative;
