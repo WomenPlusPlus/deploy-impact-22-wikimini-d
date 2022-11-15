@@ -406,6 +406,23 @@ aside a:not( .disabled ) {
 	width: 150px;
 }
 
+.wimi-button-purple {
+	color:rgb(255, 255, 255);
+	font-size: 500;
+	font-weight: 600;
+	padding: 10px 12px !important;
+	margin-left: 2px;
+	text-decoration: none;
+	background-color: #5C4195;
+	border-radius: 8px;
+	border: 1px solid #5C4195;
+	box-shadow: -1px -1px #9677D9, -2px -2px #5C4195;
+  }
+
+.wimi-button-purple:hover {
+	background-color: white !important;
+}
+
 .mw-footer {
 	background-color: #fff;
 	border-top: 1px solid #e5e5e5;
