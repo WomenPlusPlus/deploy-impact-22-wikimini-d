@@ -5,9 +5,9 @@
 	<!-- navbar -->
 	<div id="mw-navbar" role="navigation" class="position-relative navbar-expand-lg navbar-light justify-content-between bg-ws">
 		<!-- Header pictures -->
-		<div class="header-img-kids">
+		<div class="header-img">
 			<img src="http://localhost/mediawiki/skins/Medik/assets/header_owl_rightgaze.png" width="230" class="header-img-owl"/>
-			<img src="http://localhost/mediawiki/skins/Medik/assets/header_kids.png" width="450" class=""/>
+			<img src="http://localhost/mediawiki/skins/Medik/assets/header_kids.png" width="450" class="header-img-kids"/>
 		</div>
 		
 		<div id="mw-newlogo" class="row h-100">
@@ -16,7 +16,7 @@
 					{{{html-logo}}}
 				</div>
 			</div>
-			<div class="col-md-8 position-relative py-3">
+			<div class="welcome-message col-md-8 py-3">
 				<div id="mw-newnavcontent" class="position-absolute top-0 start-0 h-100 w-100 d-flex justify-content-left align-items-center">
 					<div class="text-left">
 						<h3 class="display-4">Make a difference</h3>
@@ -24,16 +24,18 @@
 						<button type="button" class="btn wimi-button-orange mt-5">LET'S GET STARTED</button>
 					</div>
 				</div>
-				<div class="navbar d-flex">
+				<div id="mw-newnavsearch" class="navbar d-flex justify-content-between">
 					
-					<div id="user-roles" class="btn">
+					<div id="user-roles" class="">
 						<a href="Parents" class="pr-3">Parents</a>
 						<a href="Child" class="pr-3">Child</a>
 						<a href="Teachers">Teachers</a>
 					</div>
-					{{{html-search}}}
-					<div class="dropdown">	
-						{{{html-userlinks}}}
+					<div class="d-flex">
+						{{{html-search}}}
+						<div class="dropdown">	
+							{{{html-userlinks}}}
+						</div>
 					</div>
 				</div>
 					

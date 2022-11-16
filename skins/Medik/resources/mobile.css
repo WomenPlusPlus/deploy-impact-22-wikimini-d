@@ -10,6 +10,11 @@ body {
 	z-index: 1001;
 }
 
+#mw-wrapper {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
 #mw-navbar .col {
 	display: none;
 }
@@ -19,8 +24,16 @@ body {
 }
 
 #mw-newnavcontent {
-	position: static!important;
+	position: relative !important;
 }
+
+#mw-newnavsearch {
+	position: absolute !important;
+}
+
+/* #mw-newnavcontent {
+	position: static!important;
+} */
 
 /* Navigation
    ========================================================================== */
@@ -29,6 +42,15 @@ body {
 #user-tools button[ type='submit' ],
 #mw-navigation .mw-wiki-logo,
 .mw-desktop-sitename {
+	display: none;
+}
+
+.mobile-welcomemessage {
+	position: relative !important;
+
+}
+
+.header-img-kids {
 	display: none;
 }
 
