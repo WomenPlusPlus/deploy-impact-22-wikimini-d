@@ -24,14 +24,36 @@
 						<button type="button" class="btn wimi-button-orange mt-5">LET'S GET STARTED</button>
 					</div>
 				</div>
-				<div id="mw-newnavsearch" class="navbar d-flex justify-content-between">
+				<div id="mw-newnavsearch" class="navbar d-flex justify-content-between align-items-start">
 					
 					<div id="user-roles" class="">
-						<a href="Parents" class="pr-3">Parents</a>
+						<table class="">
+						<tr>
+							<td class="pr-3">
+								<a href="Child" ><img src="http://localhost/mediawiki/skins/Medik/assets/child_icon.png" /></a>
+								<p class="font-weight-bold">CHILD</p>
+							</td>
+							<td class="pr-3">
+								<a href="Teacher" ><img src="http://localhost/mediawiki/skins/Medik/assets/teacher_icon.png" /></a>
+								<p class="font-weight-bold">TEACHER</p>
+							</td>
+							<td class="">
+								<a href="Parent"><img src="http://localhost/mediawiki/skins/Medik/assets/parent_icon.png" />	 
+								</a>
+								<p class="font-weight-bold">PARENT</p>
+							</td>
+						</tr>
+						{{! <tr>
+							<td>CHILD</td>
+							<td>CHILD</td>
+							<td>CHILD</td>
+						</tr> }}
+						</table>
+						{{! <a href="Parents" class="pr-3">Parents</a>
 						<a href="Child" class="pr-3">Child</a>
-						<a href="Teachers">Teachers</a>
+						<a href="Teachers">Teachers</a> }}
 					</div>
-					<div class="d-flex">
+					<div class="d-flex align-items-start">
 						{{{html-search}}}
 						<div class="dropdown">	
 							{{{html-userlinks}}}
@@ -74,7 +96,7 @@
 					<!-- <h1 id="firstHeading" class="firstHeading" lang="{{pagelanguage}}">{{{html-pagetitle}}}</h1> -->
 					<div id="siteSub">{{{html-tagline}}}</div>
 					<div class="mw-body-content" id="bodyContent">
-												<tr>
+					<tr>
 						<td>
 							<a href="wiki/Category:Animals" class="pr-3"><img src="http://localhost/mediawiki/skins/Medik/assets/animals.svg" width="100" height="150" /></a>
 						</td>

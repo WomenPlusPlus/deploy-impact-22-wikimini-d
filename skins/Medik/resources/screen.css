@@ -30,6 +30,9 @@ table caption {
 	text-decoration: none;
 }
 
+td {
+	text-align: center;
+}
 /* Navbar and hamburger menu
    ========================================================================== */
 
