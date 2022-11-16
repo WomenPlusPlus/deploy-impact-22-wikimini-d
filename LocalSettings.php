@@ -177,7 +177,7 @@ wfLoadSkin( 'Vector' );
 wfLoadExtension( 'MediaWikiChat' );
 wfLoadExtension( 'VisualEditor' );
 wfLoadExtension( 'WikiEditor' );
-wfLoadExtension( 'LinkCards' );
+
 
 
 # End of automatically generated settings.
@@ -190,3 +190,4 @@ $wgScribuntoDefaultEngine = 'luastandalone';
 # The TemplateStyles extension introduces a <templatestyles> tag to 
 # specify that a stylesheet should be loaded from a wiki page.
 wfLoadExtension( 'TemplateStyles' );
+wfLoadExtension( 'LinkCards' );
