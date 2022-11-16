@@ -1,16 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Register from './auth/sign_in';
-import { Tester } from './auth/test';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SignIn from './auth/sign_in';
+import CreateAcc from './auth/create_acc';
+import UserType from './auth/usertype';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* {< App />} */}
-    <Register/>
+    <BrowserRouter>
+    <Routes>
+        <Route exact path='/sign_in' element={<SignIn />} />
+        <Route exact path='/create_acc' element={<CreateAcc />}/>
+        <Route exact path='/usertype' element={<UserType />}/>
+    </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
