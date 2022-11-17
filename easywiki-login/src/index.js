@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SignIn from './auth/sign_in';
 import CreateAcc from './auth/create_acc';
 import UserType from './auth/usertype';
+import MoreInfo from './auth/more';
+import Interests from './auth/interests';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +17,8 @@ root.render(
         <Route exact path='/sign_in' element={<SignIn />} />
         <Route exact path='/create_acc' element={<CreateAcc />}/>
         <Route exact path='/usertype' element={<UserType />}/>
+        <Route exact path='/moreinfo' element={<MoreInfo />}/>
+        <Route exact path='/interests' element={<Interests />}/>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

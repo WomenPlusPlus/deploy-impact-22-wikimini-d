@@ -18,12 +18,12 @@ const CreateAcc = () => {
             <RegContainer>
                 <WelcomeTitle>CREATE AN ACCOUNT</WelcomeTitle>
                 <DataCont>
-                <InputTitle>E-mail adress</InputTitle>
+                    <InputTitle>E-mail adress</InputTitle>
                     <Inputfield name='email' type='text' placeholder='youremail@mail.com' value={regEmail} onChange={(e) => {setEmail(e.target.value)}}/>
                     <InputTitle>Password</InputTitle>
                     <Inputfield name='email' type='text' placeholder='******' value={regPassword} onChange={(e) => {setPassword(e.target.value)}}/>
                 </DataCont>
-                <LoginButton type='submit'>CREATE AN ACCOUNT</LoginButton>
+                <LoginButton type='submit'><Link to='/usertype'>CREATE AN ACCOUNT</Link></LoginButton>
                 <SignLink><Link to='/sign_in'>Already have an account?</Link></SignLink>
             </RegContainer>
             <Owl1 src={owl1}/>
