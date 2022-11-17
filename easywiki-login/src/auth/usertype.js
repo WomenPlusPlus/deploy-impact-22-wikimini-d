@@ -1,18 +1,19 @@
 import React, {useState} from 'react';
 import LogoSrc from '../assets/Logo.svg'
-import { LoginWrapper, WelcomeTitle, WikiLogo, LoginButton } from './sign_in';
+import { LoginWrapper, WelcomeTitle, WikiLogo, LoginButton, StatusCont, StatusBar } from './sign_in';
 import styled from 'styled-components';
 import child from '../assets/child.svg'
 import teacher from '../assets/teacher.svg'
 import parent from '../assets/parent.svg'
 import {Link} from "react-router-dom";
+import bar2 from '../assets/2bar.svg';
 
 const UserWrapper = styled(LoginWrapper)`
     flex-direction: column;
 `
 
 const UserCont = styled.div`
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -33,6 +34,8 @@ const UserType = () => {
     return ( <>
         <UserWrapper>
             <WikiLogo src={LogoSrc}/>
+            <StatusCont>
+            <StatusBar src={bar2}/>
             <WelcomeTitle1>I AM A...</WelcomeTitle1>
             <UserCont>
                     {<StyledImage src={child}/>}
@@ -40,6 +43,7 @@ const UserType = () => {
                     {<StyledImage src={parent}/>}
             </UserCont>
             <LoginButton><Link to='/moreinfo'>NEXT</Link></LoginButton>
+            </StatusCont>        
         </UserWrapper>
     </>)
 }
