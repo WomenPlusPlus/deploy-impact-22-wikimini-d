@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danniel07",
+			"Remember the dot",
+			"Vivaelcelta"
+		]
+	},
+	"skinperpage-desc": "Añade la etiqueta <code>&lt;skin&gt;</code> para usar diferentes apariencias por página",
+	"skinperpage-noskin": "No puede utilizar la piel '$1' pues es desconocida o inválida."
+}

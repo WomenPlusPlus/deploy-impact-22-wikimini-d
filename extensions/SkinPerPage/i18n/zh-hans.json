@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"GuoPC",
+			"Shinjiman",
+			"Xiaomingyan"
+		]
+	},
+	"skinperpage-desc": "添加“<code>&lt;skin&gt;</code>”标签在每一页面中使用不同的皮肤",
+	"skinperpage-noskin": "皮肤“$1”因未知或无效而无法使用。"
+}

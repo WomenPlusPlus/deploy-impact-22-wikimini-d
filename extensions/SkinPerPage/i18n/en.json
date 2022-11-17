@@ -1,0 +1,7 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"skinperpage-desc": "Adds <code>&lt;skin&gt;</code> tag to use different skins per page",
+	"skinperpage-noskin": "Cannot use skin '$1' as it is unknown or invalid."
+}

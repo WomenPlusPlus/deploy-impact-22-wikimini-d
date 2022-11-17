@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha",
+			"Shirayuki",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"skinperpage-desc": "{{desc|name=Skin Per Page|url=https://www.mediawiki.org/wiki/Extension:SkinPerPage}}",
+	"skinperpage-noskin": "Message displayed when skin name is not known or is invalid.\n\nParameters:\n* $1: The supplied skin name."
+}

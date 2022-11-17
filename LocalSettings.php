@@ -19,8 +19,8 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 ## Uncomment this to disable output compression
 # $wgDisableOutputCompression = true;
 
-$wgSitename = "EasyWiki";
-$wgMetaNamespace = "Easywiki";
+$wgSitename = "Wikimini";
+$wgMetaNamespace = "Wikimini";
 
 ## The URL base path to the directory containing the wiki;
 ## defaults for all runtime URL paths are based off of this.
@@ -175,7 +175,7 @@ wfLoadSkin( 'Vector' );
 # to LocalSettings.php. Check specific extension documentation for more details.
 # The following extensions were automatically enabled:
 wfLoadExtension( 'MediaWikiChat' );
-wfLoadExtension( 'VisualEditor' );
+# wfLoadExtension( 'VisualEditor' );
 wfLoadExtension( 'WikiEditor' );
 
 
@@ -191,3 +191,5 @@ $wgScribuntoDefaultEngine = 'luastandalone';
 # specify that a stylesheet should be loaded from a wiki page.
 wfLoadExtension( 'TemplateStyles' );
 wfLoadExtension( 'LinkCards' );
+wfLoadExtension( 'MsCatSelect' );
+wfLoadExtension( 'SkinPerPage' );

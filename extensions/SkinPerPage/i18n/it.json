@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Melos"
+		]
+	},
+	"skinperpage-desc": "Aggiunge il tag <code>&lt;skin&gt;</code> per usare differenti temi per pagina"
+}

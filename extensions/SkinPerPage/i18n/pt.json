@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Malafaya",
+			"Hamilton Abreu"
+		]
+	},
+	"skinperpage-desc": "Adiciona a etiqueta <code>&lt;skin&gt;</code> para usar temas diferentes por página",
+	"skinperpage-noskin": "Não pode usar o tema '$1' porque este é desconhecido ou inválido."
+}

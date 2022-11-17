@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"skinperpage-desc": "Aggiunge 'u tag <code>&lt;skin&gt;</code> pe ausà diffeernde skin pe pàgene",
+	"skinperpage-noskin": "No se pò ausà 'u skin '$1' cumme scanusciute o non valide."
+}

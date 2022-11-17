@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Raimond Spekking"
+		]
+	},
+	"skinperpage-desc": "Ergänzt das <code>&lt;skin&gt;</code>-Tag, um pro Seite unterschiedliche Skins zu nutzen",
+	"skinperpage-noskin": "Der Skin „$1“ kann nicht verwendet werden, da er unbekannt oder ungültig ist."
+}

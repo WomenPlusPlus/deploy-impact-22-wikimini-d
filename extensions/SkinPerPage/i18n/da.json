@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jhertel",
+			"Peter Alberti"
+		]
+	},
+	"skinperpage-desc": "Tilføjer <code>&lt;skin&gt;</code>-tag for at bruge forskellige udseender per side"
+}

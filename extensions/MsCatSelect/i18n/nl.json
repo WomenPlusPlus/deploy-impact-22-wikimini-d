@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"hrh",
+			"McDutchie"
+		]
+	},
+	"mscs-desc": "Maakt het mogelijk om een pagina toe te voegen aan een bestaande of nieuw aan te maken categorie via een keuzelijst",
+	"mscs-title": "Categorie",
+	"mscs-untercat": "Nieuwe subcategorie",
+	"mscs-untercat-hinw": "wordt aangemaakt in de hierboven gekozen categorie",
+	"mscs-warnnocat": "De pagina zit nog niet in een categorie. Weet u zeker dat u de wijzigingen wilt opslaan?",
+	"mscs-cats": "Toegewezen categorieën",
+	"mscs-add": "Toevoegen",
+	"mscs-go": "Aanmaken",
+	"mscs-created": "New category successfully created",
+	"mscs-sortkey": "Please add the default sortkey here. It is used for sorting within the category overview pages."
+}

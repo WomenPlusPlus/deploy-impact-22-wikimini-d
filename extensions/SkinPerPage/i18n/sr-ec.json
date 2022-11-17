@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Millosh",
+			"Rancher",
+			"Жељко Тодоровић"
+		]
+	},
+	"skinperpage-desc": "Додаје ознаку <code>&lt;skin&gt;</code> за коришћење различитих тема на страницама"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie",
+			"Siebrand"
+		]
+	},
+	"skinperpage-desc": "Voegt het label <code>&lt;skin&gt;</code> toe voor de instelling van vormgeving op paginaniveau",
+	"skinperpage-noskin": "Kan skin '$1' niet gebruiken omdat deze onbekend of ongeldig is."
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"skinperpage-desc": "Додава ознака <code>&lt;skin&gt;</code> за користење на различни рува на страниците",
+	"skinperpage-noskin": "Не можам да го применам рувото „$1“ бидејќи е непознато или неважечко."
+}

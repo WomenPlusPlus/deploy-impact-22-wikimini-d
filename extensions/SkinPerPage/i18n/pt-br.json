@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo.mps",
+			"Eduardoaddad",
+			555
+		]
+	},
+	"skinperpage-desc": "Adiciona a tag <code>&lt;skin&gt;</code>, possibilitando que cada página use um skin diferente da outra",
+	"skinperpage-noskin": "Não é possível usar o tema '$1' porque é desconhecido ou inválido."
+}

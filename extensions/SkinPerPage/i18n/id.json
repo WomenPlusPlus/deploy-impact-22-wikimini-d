@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana",
+			"Rex"
+		]
+	},
+	"skinperpage-desc": "Menambahkan tag <code>&lt;skin&gt;</code> untuk menggunakan kulit yang berbeda per halaman",
+	"skinperpage-noskin": "Tidak bisa menggunakan kulit '$1' karena tidak dikenal atau tidak sah."
+}

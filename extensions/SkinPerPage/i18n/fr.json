@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Grondin",
+			"Urhixidur"
+		]
+	},
+	"skinperpage-desc": "ajoute la balise <code>&lt;skin&gt;</code> pour utiliser différents habillages par page",
+	"skinperpage-noskin": "Impossible d’utiliser l’habillage '$1' car il est inconnu ou non valide."
+}

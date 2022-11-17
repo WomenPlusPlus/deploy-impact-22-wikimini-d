@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aotake",
+			"Shirayuki"
+		]
+	},
+	"skinperpage-desc": "ページ毎に異なる外装を使用するための<code>&lt;skin&gt;</code>タグを追加する"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25"
+		]
+	},
+	"skinperpage-desc": "يضيف وسم <code>&lt;skin&gt;</code> لاستخدام واجهات مختلفة لكل صفحة",
+	"skinperpage-noskin": "لا يمكن استخدام السطح \" $1 \" لأنه غير معروف أو غير صالح."
+}
