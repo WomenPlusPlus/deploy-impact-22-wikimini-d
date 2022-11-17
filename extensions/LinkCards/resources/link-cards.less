@@ -6,9 +6,9 @@
 
 .ext-linkcards {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
 	gap: 1em;
+	overflow: auto;
+	padding-bottom: 10px;
 
 	.ext-linkcards-card {
 		width: 100%;
@@ -24,6 +24,20 @@
 		}
 	}
 }
+
+.ext-linkcards::-webkit-scrollbar {
+	width: 5px;
+	height: 10px;
+	background-color: transparent;
+}
+
+.ext-linkcards::-webkit-scrollbar-thumb {
+	background-color: rgb(189, 124, 255);
+}
+
+.ext-linkcards::-webkit-scrollbar {
+	-webkit-appearance: none;
+ }
 
 @media screen and ( max-width: @width-breakpoint-tablet ) {
 	.ext-linkcards {
@@ -49,7 +63,9 @@
 	margin: 0;
 	overflow: hidden;
 	color: inherit;
-	background-color: inherit;
+	background-color: whitesmoke;
+	justify-content: center;
+	align-items: center;
 
 	& > * {
 		margin: 0;
@@ -83,8 +99,7 @@
 
 	.ext-linkcards-image {
 		overflow: hidden;
-		height: 100%;
-		width:50%;
+		width: fit-content;
 		display: block;
 		align-items: center;
 
