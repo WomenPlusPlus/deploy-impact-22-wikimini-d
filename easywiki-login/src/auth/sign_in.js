@@ -24,7 +24,7 @@ export const RegContainer = styled.div`
     justify-content: center;
     align-items: center;
     height: 65%;
-    width: 50%;
+    width: 70%;
     border-radius: 20px;
 `
 export const StatusCont = styled.div`

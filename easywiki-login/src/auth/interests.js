@@ -4,7 +4,7 @@ import LogoSrc from '../assets/Logo.svg'
 import owl2 from '../assets/owl2.svg'
 import owl3 from '../assets/owl3.svg'
 import {Link} from "react-router-dom";
-import { LoginWrapper, Owl2, Owl1, RegContainer, WikiLogo, WelcomeTitle } from './sign_in';
+import { LoginWrapper, Owl2, Owl1, RegContainer, WikiLogo, WelcomeTitle, StatusCont, StatusBar } from './sign_in';
 import { StyledImage } from './usertype';
 import animals from '../assets/rabbit.svg'
 import art from '../assets/art.svg'
@@ -12,6 +12,7 @@ import sport from '../assets/sports.svg'
 import games from '../assets/games.svg'
 import space from '../assets/space.svg'
 import { Link2, NextButton, OptionsCont } from './more';
+import bar4 from '../assets/4bar.svg';
 
 
 const InterestCont = styled.div`
@@ -46,6 +47,8 @@ const Interests = () => {
         <LoginWrapper>
             <WikiLogo src={LogoSrc}/>
             <Owl2 src={owl2}/>
+            <StatusCont>
+            <StatusBar src={bar4}/>
             <RegContainer>
                 <WelcomeTitle>WHAT ARE YOUR INTERESTS?</WelcomeTitle>
                 <InterestCont>
@@ -79,6 +82,7 @@ const Interests = () => {
                     <NextButton>NEXT</NextButton>
                 </OptionsCont>
             </RegContainer>
+            </StatusCont>
             <Owl1 src={owl3}/>        
             </LoginWrapper>
     </>)

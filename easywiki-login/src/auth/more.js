@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
 import LogoSrc from '../assets/Logo.svg'
 import styled from 'styled-components';
-import { DataCont, Inputfield, InputTitle, LoginButton, LoginWrapper, Owl1, Owl2, RegContainer, SignLink, WelcomeTitle, WikiLogo } from './sign_in';
+import { DataCont, Inputfield, InputTitle, LoginButton, LoginWrapper, Owl1, Owl2, RegContainer, SignLink, StatusBar, StatusCont, WelcomeTitle, WikiLogo } from './sign_in';
 import owl1 from '../assets/leftowl.svg'
 import owl2 from '../assets/rightowl.svg'
 import {Link} from "react-router-dom";
+import bar3 from '../assets/3bar.svg';
 
 export const OptionsCont = styled.div`
     width: 80%;
@@ -56,6 +57,8 @@ const MoreInfo = () => {
         <LoginWrapper>
             <WikiLogo src={LogoSrc}/>
             <Owl2 src={owl1}/>
+            <StatusCont>
+                <StatusBar src={bar3}/>
             <RegContainer>
                 <WelcomeTitle>TELL US MORE ABOUT YOU</WelcomeTitle>
                 <DataCont>
@@ -69,6 +72,7 @@ const MoreInfo = () => {
                     <NextButton><Link to='/interests'>NEXT</Link></NextButton>
                 </OptionsCont>
             </RegContainer>
+            </StatusCont>
             <Owl1 src={owl2}/>
         </LoginWrapper>
     </>)
