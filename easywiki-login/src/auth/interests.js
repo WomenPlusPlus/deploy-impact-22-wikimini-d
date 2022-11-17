@@ -45,7 +45,7 @@ const Interests = () => {
     return ( <>
         
         <LoginWrapper>
-            <WikiLogo src={LogoSrc}/>
+            <Link to='/'><WikiLogo src={LogoSrc}/></Link>
             <Owl2 src={owl2}/>
             <StatusCont>
             <StatusBar src={bar4}/>
@@ -79,7 +79,7 @@ const Interests = () => {
                 </InterestCont>
                 <OptionsCont>
                     <Link2>I will do this step later</Link2>
-                    <NextButton>NEXT</NextButton>
+                    <a href='http://localhost/mediawiki/index.php/Main_Page'><NextButton>NEXT</NextButton></a>
                 </OptionsCont>
             </RegContainer>
             </StatusCont>

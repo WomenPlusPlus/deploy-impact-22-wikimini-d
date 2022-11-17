@@ -14,6 +14,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
+        <Route exact path='/' element={<SignIn />} />
         <Route exact path='/sign_in' element={<SignIn />} />
         <Route exact path='/create_acc' element={<CreateAcc />}/>
         <Route exact path='/usertype' element={<UserType />}/>

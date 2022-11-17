@@ -153,7 +153,7 @@ const SignIn = () => {
 
     return (  <>
         <LoginWrapper>
-            <WikiLogo src={LogoSrc}/>
+            <Link to='/'><WikiLogo src={LogoSrc}/></Link>
             <Owl2 src={owl2}/>
             <StatusCont>
                 <StatusBar src={bar2}/>

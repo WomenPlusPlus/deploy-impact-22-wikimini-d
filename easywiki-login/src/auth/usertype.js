@@ -33,7 +33,7 @@ const UserType = () => {
 
     return ( <>
         <UserWrapper>
-            <WikiLogo src={LogoSrc}/>
+            <Link to='/'><WikiLogo src={LogoSrc}/></Link>
             <StatusCont>
             <StatusBar src={bar2}/>
             <WelcomeTitle1>I AM A...</WelcomeTitle1>

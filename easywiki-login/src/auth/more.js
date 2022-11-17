@@ -55,7 +55,7 @@ const MoreInfo = () => {
     return ( <>
 
         <LoginWrapper>
-            <WikiLogo src={LogoSrc}/>
+            <Link to='/'><WikiLogo src={LogoSrc}/></Link>
             <Owl2 src={owl1}/>
             <StatusCont>
                 <StatusBar src={bar3}/>
