@@ -42,6 +42,10 @@ const Interests = () => {
 
     const [interests,setInterests] = useState("");
 
+    const handleClick = (e) => {
+        e.preventDefault()
+    }
+
     return ( <>
         
         <LoginWrapper>
@@ -53,7 +57,7 @@ const Interests = () => {
                 <WelcomeTitle1>WHAT ARE YOUR INTERESTS?</WelcomeTitle1>
                 <InterestCont>
                     <ImagesCont>
-                        <IconCont>
+                        <IconCont onClick={handleClick}>
                             <StyledImage src={animals}/>
                             <span>ANIMALS</span>
                         </IconCont>
@@ -80,7 +84,7 @@ const Interests = () => {
                 <OptionsCont>
                     <NavButton><Link to='/moreinfo'>BACK</Link></NavButton>
                     <Link2>I will do this step later</Link2>
-                    <NavButton><Link to='/'>NEXT</Link></NavButton>
+                    <NavButton><a href='http://localhost/mediawiki/'>NEXT</a></NavButton>
                 </OptionsCont>
             </RegContainer>
             </StatusCont>
