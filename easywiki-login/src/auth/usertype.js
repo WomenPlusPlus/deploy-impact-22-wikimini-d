@@ -3,7 +3,9 @@ import LogoSrc from '../assets/Logo.svg'
 import { LoginWrapper, WelcomeTitle, WikiLogo, LoginButton, StatusCont, StatusBar, DataCont, RegContainer } from './sign_in';
 import styled from 'styled-components';
 import child from '../assets/child.svg'
+import child2 from '../assets/child2.svg'
 import teacher from '../assets/teacher.svg'
+import teacher2 from '../assets/teacher2.svg'
 import parent from '../assets/parent.svg'
 import {Link} from "react-router-dom";
 import bar2 from '../assets/2bar.svg';
@@ -61,7 +63,8 @@ export const NavButton = styled.button`
 
 const UserType = () => {
 
-    const [user,setUser] = useState("");
+    const [image,setImage] = useState(child);
+    const [image2,setImage2] = useState(teacher);
 
     return ( <>
         <UserWrapper>
@@ -71,9 +74,9 @@ const UserType = () => {
             <UserContainer>
                 <WelcomeTitle1>I AM A...</WelcomeTitle1>
                 <UserCont>
-                    {<StyledImage src={child}/>}
-                    {<StyledImage src={teacher}/>}
-                    {<StyledImage src={parent}/>}
+                    <StyledImage onClick={() => setImage(prevMode => !prevMode)} src={image ? child : child2} />
+                    <StyledImage onClick={() => setImage2(prevMode2 => !prevMode2)} src={image2 ? teacher : teacher2} />
+                    <StyledImage src={parent}/>
                 </UserCont>
                 <OptionsCont>
                     <NavButton><Link to='/create_acc'>BACK</Link></NavButton>
