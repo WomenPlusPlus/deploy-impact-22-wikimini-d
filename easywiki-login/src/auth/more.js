@@ -6,14 +6,22 @@ import owl1 from '../assets/leftowl.svg'
 import owl2 from '../assets/rightowl.svg'
 import {Link} from "react-router-dom";
 import bar3 from '../assets/3bar.svg';
+import { NavButton } from './usertype';
 
 export const OptionsCont = styled.div`
     width: 80%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: relative;
-    bottom: 1em;
+`
+const BotNavBar = styled.div`
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 3em;
 `
 
 export const Link2 = styled(SignLink)`
@@ -34,6 +42,7 @@ export const NextButton = styled.button`
     font-weight: bold;
     color: white;
     text-decoration: none
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.16)) drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.1));
 
     &:hover {
         background-color: #7CA055;
@@ -67,10 +76,11 @@ const MoreInfo = () => {
                     <InputTitle>Username</InputTitle>
                     <Inputfield name='username' type='text' value={username} onChange={(e) => {setUsername(e.target.value)}}/>
                 </DataCont>
-                <OptionsCont>
+                <BotNavBar>
+                    <NavButton><Link to='/usertype'>BACK</Link></NavButton>
                     <Link2>I will do this step later</Link2>
-                    <NextButton><Link to='/interests'>NEXT</Link></NextButton>
-                </OptionsCont>
+                    <NavButton><Link to='/interests'>NEXT</Link></NavButton>
+                </BotNavBar>
             </RegContainer>
             </StatusCont>
             <Owl1 src={owl2}/>

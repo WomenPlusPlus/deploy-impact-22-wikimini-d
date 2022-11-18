@@ -14,7 +14,6 @@ export const LoginWrapper = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
 `
 
 export const RegContainer = styled.div`
@@ -37,11 +36,12 @@ export const StatusCont = styled.div`
 
 export const DataCont = styled.div`
     justify-content: start;
+    margin-bot: 15em;
 `
 export const WelcomeTitle = styled.div`
     font-weight: 400;
     font-size: 32px;
-    margin: 1.5em auto 1.5em;
+/*     margin: 1.5em auto 1.5em; */
     position: relative;
     top: -1em;
 `
@@ -57,6 +57,7 @@ export const LoginButton = styled.button`
     color: white;
     font-weight: bold;
     text-decoration: none;
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.16)) drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.1));
 
     &:hover {
         background-color: #9677D9;
@@ -158,7 +159,6 @@ const SignIn = () => {
             <StatusCont>
                 <StatusBar src={bar2}/>
                 <RegContainer>
-                
                     <WelcomeTitle>WELCOME BACK!</WelcomeTitle>
                     <DataCont>
                         <InputTitle>E-mail adress</InputTitle>

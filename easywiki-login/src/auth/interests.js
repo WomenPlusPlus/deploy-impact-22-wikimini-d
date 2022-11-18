@@ -5,7 +5,7 @@ import owl2 from '../assets/owl2.svg'
 import owl3 from '../assets/owl3.svg'
 import {Link} from "react-router-dom";
 import { LoginWrapper, Owl2, Owl1, RegContainer, WikiLogo, WelcomeTitle, StatusCont, StatusBar } from './sign_in';
-import { StyledImage } from './usertype';
+import { NavButton, StyledImage, WelcomeTitle1 } from './usertype';
 import animals from '../assets/rabbit.svg'
 import art from '../assets/art.svg'
 import sport from '../assets/sports.svg'
@@ -50,7 +50,7 @@ const Interests = () => {
             <StatusCont>
             <StatusBar src={bar4}/>
             <RegContainer>
-                <WelcomeTitle>WHAT ARE YOUR INTERESTS?</WelcomeTitle>
+                <WelcomeTitle1>WHAT ARE YOUR INTERESTS?</WelcomeTitle1>
                 <InterestCont>
                     <ImagesCont>
                         <IconCont>
@@ -78,8 +78,9 @@ const Interests = () => {
                     </ImagesCont>
                 </InterestCont>
                 <OptionsCont>
+                    <NavButton><Link to='/moreinfo'>BACK</Link></NavButton>
                     <Link2>I will do this step later</Link2>
-                    <a href='http://localhost/mediawiki/index.php/Main_Page'><NextButton>NEXT</NextButton></a>
+                    <NavButton><Link to='/'>NEXT</Link></NavButton>
                 </OptionsCont>
             </RegContainer>
             </StatusCont>
