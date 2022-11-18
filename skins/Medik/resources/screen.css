@@ -5,6 +5,7 @@
    body {
 	background-color: #AFD36E;
 	margin: 0 auto;
+	font-size: 18px;
 }
 
 #mw-wrapper {
@@ -32,6 +33,7 @@ table caption {
 
 td {
 	text-align: center;
+	font-size: medium;
 }
 /* Navbar and hamburger menu
    ========================================================================== */
@@ -42,7 +44,7 @@ td {
 
 .header-img {
 	position: absolute;
-	bottom: -50px;
+	bottom: -35px;
 	right: 0;
 	z-index: 0;
 }
@@ -77,7 +79,7 @@ td {
 }
 
 #mw-navbar {
-	height: 450px;
+	height: 470px;
 	position: relative;
 }
 
@@ -85,7 +87,7 @@ td {
 	background-repeat: no-repeat;
 	background-size: contain;
 	display: inline-block;
-	height: 50px;
+	height: 70px;
 	margin-right: 0;
 	position: absolute;
 	top: 0;
@@ -108,7 +110,7 @@ td {
 }
 
 #searchInput {
-	width: 230px;
+	width: 270px;
 	border-radius: 20px;
 }
 

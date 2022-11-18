@@ -44,7 +44,7 @@ $wgLogos = [
 	'icon' => "$wgResourceBasePath/resources/assets/logo.png",
 ];
 $wgMedikShowLogo = 'main';
-$wgMedikLogoWidth = '210px';
+$wgMedikLogoWidth = '250px';
 $wgMedikUseLogoWithoutText = true;
 
 ## UPO means: this is also a user preference option
