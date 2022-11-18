@@ -1,7 +1,11 @@
 # Wikimini
  
-Wikimini is an educational platform designed to involve children in the learning process, explore their creativity and share their knowledge with their friends from anywhere. Discover information about your favorite animals, games, and planets by visiting the categories!
+Wikimini is an educational platform designed to involve children in the learning process. Discover information about your favorite topics, write articles.
  
+# Skins used
+Medik is a MediaWiki skin based on Bootstrap 4, originally created for WikiSkripta
+https://www.mediawiki.org/wiki/Skin:Medik
+
 # Extensions used
  
 * The LinkCards extension adds two parser functions for the easy display of grids of clickable image-and-title 'cards'.
