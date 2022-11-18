@@ -1,0 +1,5 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+#databaseerror
+
+/data/wikicache.sqlite
+/data/easywiki_data_l10n_cache.sqlite
