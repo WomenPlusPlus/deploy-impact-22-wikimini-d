@@ -1,6 +1,15 @@
 # Wikimini
  
 Wikimini is an educational platform designed to involve children in the learning process. Discover information about your favorite topics, write articles.
+
+# Deployment
+## Mediawiki 
+Install Mediawiki with SQLite
+https://www.mediawiki.org/wiki/Manual:Installing_MediaWiki
+
+## WikiMini React Login
+1) Through the comamnd line goo to the easywiki-login folder in the medawiki directory.
+2) Run npm start to load the application in the browser on localhost:3000.
  
 # Skins used
 Medik is a MediaWiki skin based on Bootstrap 4, originally created for WikiSkripta
