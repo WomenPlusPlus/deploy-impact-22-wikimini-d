@@ -33,6 +33,7 @@
 
 .ext-linkcards::-webkit-scrollbar-thumb {
 	background-color: rgb(189, 124, 255);
+	border-radius: 4px;
 }
 
 .ext-linkcards::-webkit-scrollbar {
@@ -74,16 +75,19 @@
 
 	&:hover {
 		text-decoration: none;
+		background-color: #dddcdc;
 	}
 
 	&:link:hover {
 		// Only add hover background if it's an actual link.
-		background-color: #efefef;
+		background-color: #dddcdc;
 		border-color: #707070;
+		color: rgb(0, 0, 0);
 	}
 
 	.ext-linkcards-main {
 		margin: @ext-linkcards-space;
+		font-size: 15px;
 
 		& > * {
 			margin: 0;
@@ -94,6 +98,10 @@
 			font-weight: bolder;
 			font-size: larger;
 			margin-bottom: @ext-linkcards-space;
+		}
+
+		.ext-linkcards-body {
+			font-size: 14px !important;
 		}
 	}
 

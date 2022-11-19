@@ -5,7 +5,7 @@
    body {
 	background-color: #AFD36E;
 	margin: 0 auto;
-	font-size: 18px;
+	font-size: 22px;
 }
 
 #mw-wrapper {
@@ -52,7 +52,7 @@ td {
 .header-img-owl {
 	position: absolute;
 	bottom: 30px;
-	left: -200px;
+	left: -230px;
 	z-index: 0;
 	
 }
@@ -79,7 +79,7 @@ td {
 }
 
 #mw-navbar {
-	height: 470px;
+	height: 500px;
 	position: relative;
 }
 
