@@ -8,6 +8,8 @@ import {Link} from "react-router-dom";
 import bar3 from '../assets/3bar.svg';
 import { NavButton } from './usertype';
 
+// Reusable styling elements
+
 export const OptionsCont = styled.div`
     width: 80%;
     display: flex;

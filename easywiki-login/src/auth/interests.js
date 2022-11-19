@@ -14,6 +14,7 @@ import space from '../assets/space.svg'
 import { Link2, NextButton, OptionsCont } from './more';
 import bar4 from '../assets/4bar.svg';
 
+// Reusable styling elements
 
 const InterestCont = styled.div`
     width: 90%;
@@ -40,11 +41,11 @@ const IconCont = styled.div`
 
 const Interests = () => {
 
-    const [interests,setInterests] = useState("");
-
-    const handleClick = (e) => {
-        e.preventDefault()
-    }
+    const [interestBorder,setInterestBorder] = useState("");
+    const [artBorder,setArtBorder] = useState("");
+    const [sportBorder,setASportBorder] = useState("");
+    const [gamesBorder,setGamesBorder] = useState("");
+    const [spaceBorder,setSpaceBorder] = useState("");
 
     return ( <>
         
@@ -57,26 +58,26 @@ const Interests = () => {
                 <WelcomeTitle1>WHAT ARE YOUR INTERESTS?</WelcomeTitle1>
                 <InterestCont>
                     <ImagesCont>
-                        <IconCont onClick={handleClick}>
-                            <StyledImage src={animals}/>
+                        <IconCont>
+                            <StyledImage onClick={() => setInterestBorder(prevMode => !prevMode)} style={ interestBorder ? {border: '5px solid #5C4195', borderRadius: '50px'} : {border: null}} src={animals}/>
                             <span>ANIMALS</span>
                         </IconCont>
                         <IconCont>
-                            <StyledImage src={art}/>
+                            <StyledImage onClick={() => setArtBorder(prevMode => !prevMode)} style={ artBorder ? {border: '5px solid #5C4195', borderRadius: '50px'} : {border: null}} src={art}/>
                             <span>ART</span>
                         </IconCont>
                         <IconCont>
-                            <StyledImage src={sport}/>
+                            <StyledImage onClick={() => setASportBorder(prevMode => !prevMode)} style={ sportBorder ? {border: '5px solid #5C4195', borderRadius: '50px'} : {border: null}} src={sport}/>
                             <span>SPORT</span>
                         </IconCont>
                     </ImagesCont>
                     <ImagesCont>
                         <IconCont>
-                            <StyledImage src={games}/>
+                            <StyledImage onClick={() => setGamesBorder(prevMode => !prevMode)} style={ gamesBorder ? {border: '5px solid #5C4195', borderRadius: '50px'} : {border: null}}src={games}/>
                             <span>GAMES</span>
                         </IconCont>
                         <IconCont>
-                            <StyledImage src={space}/>
+                            <StyledImage onClick={() => setSpaceBorder(prevMode => !prevMode)} style={ spaceBorder ? {border: '5px solid #5C4195', borderRadius: '50px'} : {border: null}}src={space}/>
                             <span>SPACE</span>
                         </IconCont>
                     </ImagesCont>
@@ -84,7 +85,7 @@ const Interests = () => {
                 <OptionsCont>
                     <NavButton><Link to='/moreinfo'>BACK</Link></NavButton>
                     <Link2>I will do this step later</Link2>
-                    <NavButton><a href='http://localhost/mediawiki/'>NEXT</a></NavButton>
+                    <NavButton><a href='http://localhost/mediawiki/'>FINISH</a></NavButton>
                 </OptionsCont>
             </RegContainer>
             </StatusCont>

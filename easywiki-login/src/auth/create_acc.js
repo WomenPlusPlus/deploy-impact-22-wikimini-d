@@ -6,6 +6,8 @@ import owl2 from '../assets/owl2.svg'
 import {Link} from "react-router-dom";
 import bar1 from '../assets/1bar.svg';
 
+// Visual elements for account creation
+
 const CreateAcc = () => {
 
     const [regEmail,setEmail] = useState("");
