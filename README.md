@@ -1,33 +1,51 @@
-# MediaWiki
+# Wikimini
+ 
+Wikimini is an educational platform designed to involve children in the learning process. Discover information about your favorite topics, write articles.
 
-MediaWiki is a free and open-source wiki software package written in PHP. It
-serves as the platform for Wikipedia and the other Wikimedia projects, used
-by hundreds of millions of people each month. MediaWiki is localised in over
-350 languages and its reliability and robust feature set have earned it a large
-and vibrant community of third-party users and developers.
+# Deployment
+## Mediawiki 
+Install Mediawiki with SQLite
+https://www.mediawiki.org/wiki/Manual:Installing_MediaWiki
+Files changed: LocalSetting.php,
+Wikimini logo in assets folder,
+in file $wiki/extensions/Scribunto/includes/engines/LuaStandalone/LuaStandaloneInterpreter.php line 133 $cmd = '"' . $cmd . '"'; is commented out
 
-MediaWiki is:
+## WikiMini React Login
+1) Through the command line goo to the easywiki-login folder in the medawiki directory.
+2) Run npm start to load the application in the browser on localhost:3000.
+ 
+# Skins used
+Medik is a MediaWiki skin based on Bootstrap 4, originally created for WikiSkripta
+https://www.mediawiki.org/wiki/Skin:Medik
+Files changed: skin.mustache, MedikTemplate.php, screen.css, desctop.css, mobile.css
+Added pictures to assests folder
 
-* feature-rich and extensible, both on-wiki and with hundreds of extensions;
-* scalable and suitable for both small and large sites;
-* simple to install, working on most hardware/software combinations; and
-* available in your language.
+# Extensions used
+ 
+* The LinkCards extension adds two parser functions for the easy display of grids of clickable image-and-title 'cards'.
+https://www.mediawiki.org/wiki/Extension:LinkCards
+Files changed: link-kards.less
+* The MsCatSelect extension adds a visual interface to the edit page that allows you to add a category to a page by selecting the category in a drop-down on the edit page and more
+https://www.mediawiki.org/wiki/Extension:MsCatSelect
+* TemplateStyles extension
+https://www.mediawiki.org/wiki/Extension:TemplateStyles
 
-For system requirements, installation, and upgrade details, see the files
-RELEASE-NOTES, INSTALL, and UPGRADE.
+# Templates used
+ 
+* Clickable button template.
+https://www.mediawiki.org/wiki/Template:Clickable_button_2
+Files changed: 
+In file $wiki/extensions/Scribunto/includes/engines/LuaStandalone/LuaStandaloneInterpreter.php line 133 $cmd = '"' . $cmd . '"'; is commented out
+ 
+# Extesions suggested for the future implementation
+ 
+* The Quiz extension is the quiz building tool adopted on the Wikiversity.
+https://www.mediawiki.org/wiki/Extension:Quiz
+* The SkinPerPage extension allows using different skins on different pages.
+https://www.mediawiki.org/wiki/Extension:SkinPerPage
+* WikiTextLoggedInOut extension adds two new parser hooks, <loggedin> and <loggedout>. The tags will show different text depending on the users' login state.
+https://www.mediawiki.org/wiki/Extension:WikiTextLoggedInOut
+* Page Forms allows you to have forms for creating and editing pages on your wiki, as well as for querying data, all without any programming. Forms can be created and edited not just by administrators, but by users themselves.
+https://www.mediawiki.org/wiki/Extension:Page_Forms
+ 
 
-* Ready to get started?
-  * https://www.mediawiki.org/wiki/Special:MyLanguage/Download
-* Looking for the technical manual?
-  * https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Contents
-* Seeking help from a person?
-  * https://www.mediawiki.org/wiki/Special:MyLanguage/Communication
-* Looking to file a bug report or a feature request?
-  * https://bugs.mediawiki.org/
-* Interested in helping out?
-  * https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute
-
-MediaWiki is the result of global collaboration and cooperation. The CREDITS
-file lists technical contributors to the project. The COPYING file explains
-MediaWiki's copyright and license (GNU General Public License, version 2 or
-later). Many thanks to the Wikimedia community for testing and suggestions.
