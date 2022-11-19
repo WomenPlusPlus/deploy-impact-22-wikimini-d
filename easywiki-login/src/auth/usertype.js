@@ -11,6 +11,8 @@ import {Link} from "react-router-dom";
 import bar2 from '../assets/2bar.svg';
 import { OptionsCont } from './more';
 
+// Reusable styling elements
+
 const UserWrapper = styled(LoginWrapper)`
     flex-direction: column;
 `

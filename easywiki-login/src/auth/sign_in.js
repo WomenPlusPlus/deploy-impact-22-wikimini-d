@@ -6,6 +6,8 @@ import owl2 from '../assets/owl2.svg'
 import {Link} from 'react-router-dom';
 import bar2 from '../assets/2bar.svg';
 
+// Reusable styling elements
+
 export const LoginWrapper = styled.div`
     background-color: #AFD36E;
     height: 100vh;
@@ -116,7 +118,7 @@ const SignIn = () => {
 
         let url = "https://test.wikipedia.org/w/api.php";
         
-        
+        // Getting the login token, saving it and then logging in through the API
         
         function getLoginToken() {
             

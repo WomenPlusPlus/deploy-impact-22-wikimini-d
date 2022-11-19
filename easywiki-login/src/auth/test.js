@@ -5,7 +5,7 @@ export const Tester = () => {
 
 let url = "https://test.wikipedia.org/w/api.php";
 
-
+// Testing if we get the correct response from API
 
 function getLoginToken() {
     
