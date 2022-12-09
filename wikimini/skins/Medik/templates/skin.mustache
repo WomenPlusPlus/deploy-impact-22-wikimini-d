@@ -1,0 +1,149 @@
+{{{html-skinstart}}}
+<style>:root {--medik: {{medik-color}};}</style>
+<div id="mw-wrapper">
+
+	<!-- navbar -->
+	<div id="mw-navbar" role="navigation" class="position-relative navbar-expand-lg navbar-light justify-content-between bg-ws">
+		<!-- Header pictures -->
+		<div class="header-img">
+			<img src="http://localhost/mediawiki/skins/Medik/assets/header_owl_rightgaze.png" width="250" class="header-img-owl"/>
+			<img src="http://localhost/mediawiki/skins/Medik/assets/header_kids.png" width="470" class="header-img-kids"/>
+		</div>
+		
+		<div id="mw-newlogo" class="row h-100">
+			<div id="mw-navbar-left" class="position-relative col navbar d-flex align-items-baseline">
+				<div class="">
+					{{{html-logo}}}
+				</div>
+			</div>
+			<div class="welcome-message col-md-8 py-3">
+				<div id="mw-newnavcontent" class="position-absolute top-0 start-0 h-100 w-100 d-flex justify-content-left align-items-center">
+					<div>
+						<h3 class="display-4 font-weight-normal">Make a difference</h3>
+						<div class="m-0 mt-4 w-50">"Wikimini, learn, play and act! Have fun participating in this educational journey, whether in class or at home!"</div>
+						<button type="button" class="btn wimi-button-orange mt-5">LET'S GET STARTED</button>
+					</div>
+				</div>
+				<div id="mw-newnavsearch" class="navbar d-flex justify-content-between align-items-start">
+					
+					<div id="user-roles">
+						<table>
+							<tr>
+								<td class="pr-4">
+									<a href="Child" ><img src="http://localhost/mediawiki/skins/Medik/assets/child_icon.png" width="60px" /></a>
+									<p class="font-weight-bold">CHILD</p>
+								</td>
+								<td class="pr-4">
+									<a href="Teacher" ><img src="http://localhost/mediawiki/skins/Medik/assets/teacher_icon.png" width="60px" /></a>
+									<p class="font-weight-bold">TEACHER</p>
+								</td>
+								<td class="">
+									<a href="Parent"><img src="http://localhost/mediawiki/skins/Medik/assets/parent_icon.png" width="60px"/>	 
+									</a>
+									<p class="font-weight-bold">PARENT</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="d-flex align-items-center">
+						{{{html-search}}}
+						<div class="btn wimi-button-purple ml-5" style="text-transform: uppercase;">	
+							{{{html-userlinks}}}
+						</div>
+					</div>
+				</div>
+					
+			</div>
+			<div class="col"></div>
+		</div>
+	</div>
+
+	<!-- sidebar and main content wrapper -->
+	{{! <div class="container-fluid" id="mw-main-container">
+		<div class="row"> }}
+
+			<!-- navigation sidebar -->
+			<!-- <div id="mw-navigation" role="navigation" class="col-12 {{medik-sidebar-width}}" style="font-size: {{medik-fontsize}};">
+				<nav class="nav flex-column">
+					<h2>
+						{{{html-navigation-heading}}}
+					</h2>
+					<div id="site-navigation">
+						{{{html-site-navigation}}}
+					</div>
+				</nav>
+			</div> 
+		{{! </div>
+	</div> }} -->
+
+	<!-- main content -->
+	<div id="mw-newmaincontent" class="row ">
+		<div class="col"></div>
+		<div class="col-md-8 py-3">
+				<!-- {{{html-sitenotice}}} -->
+				<!-- {{{html-talknotice}}} -->
+				<!-- {{{html-aside}}} -->
+				<div class="mw-body" id="content" style="font-size: {{medik-fontsize}};" role="main">
+					<!-- {{{html-indicators}}} -->
+					<!-- <h1 id="firstHeading" class="firstHeading" lang="{{pagelanguage}}">{{{html-pagetitle}}}</h1> -->
+					<div id="siteSub">{{{html-tagline}}}</div>
+						<div class="mw-body-content" id="bodyContent">
+							<div class="text-center">
+								<tr>
+									<td>
+										<a href="wiki/Category:Animals" class="pr-3"><img src="http://localhost/mediawiki/skins/Medik/assets/animals.png" width="140" height="150" /></a>
+									</td>
+									<td>
+										<a href="wiki/Category:Art" class="pr-3"><img src="http://localhost/mediawiki/skins/Medik/assets/art.svg" width="120" height="150" /></a>
+									</td>
+									<td>
+										<a href="wiki/Category:Sport" class="pr-3"><img src="http://localhost/mediawiki/skins/Medik/assets/sport.svg" width="120" height="150" /></a>
+									</td>
+									<td>
+										<a href="wiki/Category:Games" class="pr-3"><img src="http://localhost/mediawiki/skins/Medik/assets/games.svg" width="120" height="150" /></a>
+									</td>
+									<td>
+										<a href="Pwiki/Category:Space" class="pr-3"><img src="http://localhost/mediawiki/skins/Medik/assets/space.svg" width="120" height="150" /></a>
+									</td>
+								</tr>
+							</div>
+							<div id="contentSub">
+								<!-- {{{html-pagesubtitle}}} -->
+								<p>{{{html-undelete}}}</p>
+							</div>
+							{{{html-bodycontent}}}
+							{{{html-clear}}}
+							<div class="printfooter">{{{html-printfooter}}}</div>
+							{{{html-categorylinks}}}
+					</div>
+					{{{html-dataaftercontent}}}
+				</div>
+		</div>
+		<div class="col">
+		</div>
+	
+		<div class="w-100"></div>
+
+		<!-- {{{html-footer}}} -->
+		<div id="mw-footer-col1" class="col">
+			<div class="pl-3 newfooter">
+				{{{html-logo}}}
+			</div>
+		</div>
+		<div class="col-md-8 d-flex justify-content-center py-2">
+			<div>
+				{{{html-aside}}}
+			</div>
+			<div class="newfooter-help">
+				<p>HELP US</p>
+				<p><small>Lorem in illum augue feugiat commodo eum tation facilisi.</small></p>
+				<button type="button" class="btn wimi-button-purple">Donate</button>
+			</div>
+		</div>
+		<div id="mw-footer-col2" class="col">
+		
+		</div>
+	</div>
+	
+</div>
+{{{html-skinend}}}
